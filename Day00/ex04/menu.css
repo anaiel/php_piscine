@@ -1,104 +1,104 @@
 body {
-    background-color: #D8E4FF;
-    color: #6B818C;
-    margin: 0;
-    padding: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	background-color: #D8E4FF;
+	color: #6B818C;
+	margin: 0;
+	padding: 0;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 h1 {
-    font-size: 32px;
-    text-align: center;
-    color: #35605A;
-    padding : 0;
-    margin: 0;
-    font-family: monospace;
-    letter-spacing: 8px;
+	font-size: 32px;
+	text-align: center;
+	color: #35605A;
+	padding : 0;
+	margin: 0;
+	font-family: monospace;
+	letter-spacing: 8px;
 }
 
 #header {
-    width: 100%;
-    background-color: #00120B;
-    padding: 5px;
-    margin: 0;
-    position: relative;
-    top: 0;
-    left: 0;
+	width: 100%;
+	background-color: #00120B;
+	padding: 5px;
+	margin: 0;
+	position: relative;
+	top: 0;
+	left: 0;
 }
 
 #menu {
-    width: 600px;
-    margin: 20px auto 0 auto;
-    position: relative;
-    font-size: 0;
+	width: 600px;
+	margin: 20px auto 0 auto;
+	position: relative;
+	font-size: 0;
 }
 
 .dropdown {
-    display: inline-block;
-    position: relative;
-    width: 25%;
-    margin: 0;
-    padding: 0;
+	display: inline-block;
+	position: relative;
+	width: 25%;
+	margin: 0;
+	padding: 0;
 }
 
 .dropbutton {
-    font-size: 16px;
-    background-color: #31E981;
-    padding: 5px 0 5px 0;
-    border: none;
-    width: 100%;
-    margin: 0;
+	font-size: 16px;
+	background-color: #31E981;
+	padding: 5px 0 5px 0;
+	border: none;
+	width: 100%;
+	margin: 0;
 }
 
 .dropcontent {
-    display: none;
-    margin: 0;
-    padding: 0;
-    position: absolute;
-    width: 100%;
-    font-size: 16px;
+	display: none;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	width: 100%;
+	font-size: 16px;
 }
 
 .dropcontent a {
-    display: block;
-    width: 100%;
-    background-color: #35605A;
-    color: #D8E4FF;
-    padding: 5px 0 5px 0;
-    text-align: center;
-    text-decoration: none;
-    margin: 0;
+	display: block;
+	width: 100%;
+	background-color: #35605A;
+	color: #D8E4FF;
+	padding: 5px 0 5px 0;
+	text-align: center;
+	text-decoration: none;
+	margin: 0;
 }
 
 .dropdown:hover .dropbutton{
-    background-color: #00120B;
-    color: #31E981;
+	background-color: #00120B;
+	color: #31E981;
 }
 
 .dropdown:hover .dropcontent {
-    display: block;
+	display: block;
 }
 
 .dropcontent a:hover {
-    background-color:  #31E981;
+	background-color:  #31E981;
 }
 
 .sandwich:hover {
-    background-color:  #31E981;
+	background-color:  #31E981;
 }
 
 .sandwich:hover a {
-    background-color:  #31E981;
+	background-color:  #31E981;
 }
 
 .recipe {
-    display: none;
+	display: none;
 }
 
 .sandwich:hover .recipe {
-    display: block;
-    font-style: italic;
-    font-size: 10px;
-    text-align: center;
-    background-color: #31E981;
+	display: block;
+	font-style: italic;
+	font-size: 10px;
+	text-align: center;
+	background-color: #31E981;
 }

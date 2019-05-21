@@ -1,157 +1,158 @@
 body {
-    background-color: #505050;
+	background-color: #505050;
 }
 
 div {
-    background-color: #909090;
-    border-radius: 10px;
-    padding: 10px;
-    box-shadow: 10px 10px 10px black
-}
-
-div#all {
-    width: 1400px;
-    margin: auto;
-    background-color: transparent;
-    box-shadow: none;
-    position: relative;
-}
-
-div#header {
-    width: 100%;
-    height: 117px;
-    margin: 18px auto 20px auto;
-    position: relative;
-}
-
-img#doft {
-    height: 109px;;
-}
-
-img#loupe {
-    position: absolute;
-    right: 63px;
-    top: 17px;
-}
-
-img#reload,
-img#close {
-    width: 24px;
-    height: 24px;
-    position: absolute;
-}
-
-img#reload {
-    right: 10px;
-    top: 9px;
-}
-
-img#close {
-    bottom: 8px;
-    right: 10px;
-}
-
-div#main {
-    width: 1360px;
-    padding: 0;
-    margin-left: 30px;
-    position: relative;
-    background-color: transparent;
-    box-shadow: none;
-}
-
-div.sidepanel {
-    height: 405px;
-    width: 120px;
-    position: absolute;
-}
-
-div.sidepanel img {
-    display: block;
-    margin: 0 auto 5 auto;
-}
-
-div#panelleft {
-    left: 0;
-    top: 0;
-}
-
-img#arrow,
-img#hand,
-img#oeil,
-img#outil,
-img#chat {
-    height: 18%;
-}
-
-img#oeil {
-    border-radius: 5px;
-    border: 5px solid red;
-}
-
-div#panelright {
-    right: 0;
-    top: 0;
-}
-
-img#book {
-    margin-top:10px;
-    height: 96px;
-}
-
-img#towel {
-    width: 66px;
-}
-
-div#wall {
-    padding:0;
-    border-radius: 0;
-    min-height: 70px;
-    min-width: 100%;
-    background-image: url(resources/brick.jpg);
-    background-repeat: repeat;
-    box-shadow: none;
-}
-
-div#view {
-    width: 1000px;
-    margin: auto;
-}
-
-img#cluster {
-    width: 100%;
-}
-
-div#textbox {
-    margin: 0;
-    position: absolute;
-    top: 690px;
-    left: -35px;
-    width: 500px;
-    height: 150px;
-    background-color: #87FF89;
+	background-color: #909090;
+	border-radius: 10px;
+	padding: 10px;
+	box-shadow: 10px 10px 10px black
 }
 
 p {
-    margin: 0;
-    padding: 0;
-    font-size: 16;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-.big {
-    font-size: 32;
-    font-family: 'Times New Roman', Times, serif;
+	margin: 0;
+	padding: 0;
+	font-size: 16;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.shadow {
-    text-shadow: 5px 5px 4px red;
+div#all {
+	width: 1400px;
+	margin: auto;
+	background-color: transparent;
+	box-shadow: none;
+	position: relative;
 }
 
-.italic {
-    font-style: italic;
-}
+	div#header {
+		width: 100%;
+		height: 117px;
+		margin: 18px auto 20px auto;
+		position: relative;
+	}
 
-#input {
-    margin-right: 5px;
-    width: 75%;
-}
+		img#doft {
+			height: 109px;;
+		}
+
+		img#loupe {
+			position: absolute;
+			right: 63px;
+			top: 17px;
+		}
+
+		img#reload,
+		img#close {
+			width: 24px;
+			height: 24px;
+			position: absolute;
+		}
+
+		img#reload {
+			right: 10px;
+			top: 9px;
+		}
+
+		img#close {
+			bottom: 8px;
+			right: 10px;
+		}
+
+	div#main {
+		width: 1360px;
+		padding: 0;
+		margin-left: 30px;
+		position: relative;
+		background-color: transparent;
+		box-shadow: none;
+	}
+
+		div.sidepanel {
+			height: 405px;
+			width: 120px;
+			position: absolute;
+		}
+
+			div.sidepanel img {
+				display: block;
+				margin: 0 auto 5 auto;
+			}
+
+			div#panelleft {
+				left: 0;
+				top: 0;
+			}
+
+				img#arrow,
+				img#hand,
+				img#oeil,
+				img#outil,
+				img#chat {
+					height: 18%;
+				}
+
+				img#oeil {
+					border-radius: 5px;
+					border: 5px solid red;
+				}
+
+			div#panelright {
+				right: 0;
+				top: 0;
+			}
+
+				img#book {
+					margin-top:10px;
+					height: 96px;
+				}
+
+				img#towel {
+					width: 66px;
+				}
+
+				div#wall {
+					padding:0;
+					border-radius: 0;
+					min-height: 70px;
+					min-width: 100%;
+					background-image: url(resources/brick.jpg);
+					background-repeat: repeat;
+					box-shadow: none;
+				}
+
+		div#view {
+			width: 1000px;
+			margin: auto;
+		}
+
+			img#cluster {
+				width: 100%;
+			}
+
+		div#textbox {
+			margin: 0;
+			position: absolute;
+			top: 690px;
+			left: -35px;
+			width: 500px;
+			height: 150px;
+			background-color: #87FF89;
+		}
+
+			.big {
+				font-size: 32;
+				font-family: 'Times New Roman', Times, serif;
+			}
+
+			.shadow {
+				text-shadow: 5px 5px 4px red;
+			}
+
+			.italic {
+				font-style: italic;
+			}
+
+			#input {
+				margin-right: 5px;
+				width: 75%;
+			}

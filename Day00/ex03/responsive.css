@@ -1,0 +1,118 @@
+body {
+    color: #525659;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-size: 32px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+p {
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#subtitle {
+    text-align: center;
+    font-size: 14px;
+    font-style: italic;
+    color: grey;
+}
+
+.mass,
+.number {
+    font-size: 1vw;
+}
+
+.mass {
+    text-align: right;
+}
+
+.name {
+    font-size: 2vw;
+    text-align: center;
+}
+
+.number {
+    text-align: left;
+}
+
+table {
+    margin: 30px auto 10px auto;
+}
+
+table#periodic {
+    table-layout: fixed;
+    width: 90%;
+}
+
+table#periodic td {
+    padding: 5px;
+    color: white;
+}
+
+.alkalimetal {
+    background-color: #009A5A;
+}
+
+.alkalineearthmetal {
+    background-color: #0165B3;
+    color: white;
+}
+
+.lanthanide {
+    background-color: #EF3D97;
+}
+
+.actinide {
+    background-color: #E1C1CC;
+}
+
+.transitionmetal {
+    background-color: #522E92;
+    color: white;
+}
+
+.posttransitionmetal {
+    background-color: #FFCB06
+}
+
+.metalloid {
+    background-color: #18BED1;
+}
+
+.othernonmetal {
+    background-color: #C4DFA3;
+}
+
+.halogen {
+    background-color: #FEDCB5;
+}
+
+.noblegas {
+    background-color: #ED1B3B;
+}
+
+.unknown {
+    background-color: #A5CE42;
+}
+
+table#key {
+    table-layout: auto;
+}
+
+table#key td {
+    padding-right: 20px;
+}
+
+.overflow {
+    overflow-x: auto;
+}
+
+img {
+    height: 100px;
+    display: block;
+    margin: 10px auto 10px auto;
+}
