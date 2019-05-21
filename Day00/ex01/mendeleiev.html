@@ -1,0 +1,864 @@
+<HTML>
+
+<HEAD>
+	<TITLE>Mendeleiev</TITLE>
+	<STYLE>
+		body {
+			color: #525659;
+			font-family: Arial, Helvetica, sans-serif;
+		}
+
+		h1 {
+			text-align: center;
+			font-size: 32px;
+			font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+		}
+
+		#subtitle {
+			text-align: center;
+			font-size: 14px;
+			font-style: italic;
+			color: grey;
+		}
+
+		p {
+			margin: 0px;
+			font-family: Arial, Helvetica, sans-serif;
+		}
+
+		.mass,
+		.number {
+			font-size: 10px;
+		}
+
+		.mass {
+			text-align: right;
+		}
+
+		.name {
+			font-size: 24px;
+			text-align: center;
+		}
+
+		.number {
+			text-align: left;
+		}
+
+		table {
+			margin: 30px auto 10px auto;
+		}
+
+		table#periodic {
+			table-layout: fixed;
+			width: 90%;
+		}
+
+		table#periodic td {
+			width: 50px;
+			padding: 5px;
+			color: white;
+		}
+
+		.alkalimetal {
+			background-color: #009A5A;
+		}
+
+		.alkalineearthmetal {
+			background-color: #0165B3;
+			color: white;
+		}
+
+		.lanthanide {
+			background-color: #EF3D97;
+		}
+
+		.actinide {
+			background-color: #E1C1CC;
+		}
+
+		.transitionmetal {
+			background-color: #522E92;
+			color: white;
+		}
+
+		.posttransitionmetal {
+			background-color: #FFCB06
+		}
+
+		.metalloid {
+			background-color: #18BED1;
+		}
+
+		.othernonmetal {
+			background-color: #C4DFA3;
+		}
+
+		.halogen {
+			background-color: #FEDCB5;
+		}
+
+		.noblegas {
+			background-color: #ED1B3B;
+		}
+
+		.unknown {
+			background-color: #A5CE42;
+		}
+
+		table#key {
+			table-layout: auto;
+		}
+
+		table#key td {
+			padding-right: 20px;
+		}
+
+		.overflow {
+			overflow-x: auto;
+		}
+
+		img {
+			height: 100px;
+			display: block;
+			margin: 10px auto 10px auto;
+		}
+	</STYLE>
+</HEAD>
+
+<BODY>
+	<H1>Periodic Table</H1>
+
+	<P id="subtitle">First published by Mendeleev in 1869, last updated in 2016 (elements 113, 115, 117 and 118 added)</P>
+
+	<IMG SRC="https://png2.kisspng.com/sh/92b96a3959ec14da0923ea607ceab4b6/L0KzQYm3VsIzN5D4epH0aYP2gLBuTfRucaV3gZ92ZX7ndb3shgYua5lqhdt8dIL8PcTqifVvfJp4jJ95ZYLsf7Xwg711aZNxRadrMnS4dYrthME4Pmo8Rqg8MUK0SYK4UcUzQWcAUasEOUi4SHB3jvc=/kisspng-dmitri-mendeleev-chemistry-scientist-periodic-tabl-5b2d5e9fd17697.631219111529699999858.png" />
+
+	<DIV class="overflow">
+		<TABLE id="periodic">
+			<TR>
+				<TD class="othernonmetal">
+					<P class="mass">1.008</P>
+					<P class="name" title="Hydrogen">H</P>
+					<P class="number">1</P>
+				</TD>
+				<TD>
+				</TD>
+				<TD>
+				</TD>
+				<TD>
+				</TD>
+				<TD>
+				</TD>
+				<TD>
+				</TD>
+				<TD>
+				</TD>
+				<TD>
+				</TD>
+				<TD>
+				</TD>
+				<TD>
+				</TD>
+				<TD>
+				</TD>
+				<TD>
+				</TD>
+				<TD>
+				</TD>
+				<TD>
+				</TD>
+				<TD>
+				</TD>
+				<TD>
+				</TD>
+				<TD>
+				</TD>
+				<TD class="noblegas">
+					<P class="mass">4.003</P>
+					<P class="name" title="Helium">He</P>
+					<P class="number">2</P>
+				</TD>
+			<TR>
+				<TD class="alkalimetal">
+					<P class="mass">6.941</P>
+					<P class="name" title="Lithium">Li</P>
+					<P class="number">3</P>
+				</TD>
+				<TD class="alkalineearthmetal">
+					<P class="mass">9.012</P>
+					<P class="name" title="Beryllium">Be</P>
+					<P class="number">4</P>
+				</TD>
+				<TD>
+				</TD>
+				<TD>
+				</TD>
+				<TD>
+				</TD>
+				<TD>
+				</TD>
+				<TD>
+				</TD>
+				<TD>
+				</TD>
+				<TD>
+				</TD>
+				<TD>
+				</TD>
+				<TD>
+				</TD>
+				<TD>
+				</TD>
+				<TD class="metalloid">
+					<P class="mass">10.81</P>
+					<P class="name" title="Boron">B</P>
+					<P class="number">5</P>
+				</TD>
+				<TD class="othernonmetal">
+					<P class="mass">12.01</P>
+					<P class="name" title="Carbon">C</P>
+					<P class="number">6</P>
+				</TD>
+				<TD class="othernonmetal">
+					<P class="mass">14.01</P>
+					<P class="name" title="Nitrogen">N</P>
+					<P class="number">7</P>
+				</TD>
+				<TD class="othernonmetal">
+					<P class="mass">16.00</P>
+					<P class="name" title="Oxygen">O</P>
+					<P class="number">8</P>
+				</TD>
+				<TD class="halogen">
+					<P class="mass">19.00</P>
+					<P class="name" title="Fluorine">F</P>
+					<P class="number">9</P>
+				</TD>
+				<TD class="noblegas">
+					<P class="mass">20.18</P>
+					<P class="name" title="Neon">Ne</P>
+					<P class="number">10</P>
+				</TD>
+			</TR>
+			<TR>
+				<TD class="alkalimetal">
+					<P class="mass">22.99</P>
+					<P class="name" title="Sodium">Na</P>
+					<P class="number">11</P>
+				</TD>
+				<TD class="alkalineearthmetal">
+					<P class="mass">24.31</P>
+					<P class="name" title="Magnesium">Mg</P>
+					<P class="number">12</P>
+				</TD>
+				<TD>
+				</TD>
+				<TD>
+				</TD>
+				<TD>
+				</TD>
+				<TD>
+				</TD>
+				<TD>
+				</TD>
+				<TD>
+				</TD>
+				<TD>
+				</TD>
+				<TD>
+				</TD>
+				<TD>
+				</TD>
+				<TD>
+				</TD>
+				<TD class="posttransitionmetal">
+					<P class="mass">26.98</P>
+					<P class="name" title="Aluminium">Al</P>
+					<P class="number">13</P>
+				</TD>
+				<TD class="metalloid">
+					<P class="mass">28.09</P>
+					<P class="name" title="Silicon">Si</P>
+					<P class="number">14</P>
+				</TD>
+				<TD class="othernonmetal">
+					<P class="mass">30.97</P>
+					<P class="name" title="Phosphorus">P</P>
+					<P class="number">15</P>
+				</TD>
+				<TD class="othernonmetal">
+					<P class="mass">32.07</P>
+					<P class="name" title="Sulfur">S</P>
+					<P class="number">16</P>
+				</TD>
+				<TD class="halogen">
+					<P class="mass">35.45</P>
+					<P class="name" title="Chlorine">Cl</P>
+					<P class="number">17</P>
+				</TD>
+				<TD class="noblegas">
+					<P class="mass">39.95</P>
+					<P class="name" title="Argon">Ar</P>
+					<P class="number">18</P>
+				</TD>
+			<TR>
+				<TD class="alkalimetal">
+					<P class="mass">39.10</P>
+					<P class="name" title="Potassium">K</P>
+					<P class="number">19</P>
+				</TD>
+				<TD class="alkalineearthmetal">
+					<P class="mass">40.08</P>
+					<P class="name" title="Calcium">Ca</P>
+					<P class="number">20</P>
+				</TD>
+				<TD class="transitionmetal">
+					<P class="mass">44.96</P>
+					<P class="name" title="Scandium">Sc</P>
+					<P class="number">21</P>
+				</TD>
+				<TD class="transitionmetal">
+					<P class="mass">47.87</P>
+					<P class="name" title="Titanium">Ti</P>
+					<P class="number">22</P>
+				</TD>
+				<TD class="transitionmetal">
+					<P class="mass">50.94</P>
+					<P class="name" title="Vanadium">V</P>
+					<P class="number">23</P>
+				</TD>
+				<TD class="transitionmetal">
+					<P class="mass">52.00</P>
+					<P class="name" title="Chromium">Cr</P>
+					<P class="number">24</P>
+				</TD>
+				<TD class="transitionmetal">
+					<P class="mass">54.94</P>
+					<P class="name" title="Manganese">Mn</P>
+					<P class="number">25</P>
+				</TD>
+				<TD class="transitionmetal">
+					<P class="mass">55.84</P>
+					<P class="name" title="Iron">Fe</P>
+					<P class="number">26</P>
+				</TD>
+				<TD class="transitionmetal">
+					<P class="mass">58.93</P>
+					<P class="name" title="Cobalt">Co</P>
+					<P class="number">27</P>
+				</TD>
+				<TD class="transitionmetal">
+					<P class="mass">58.69</P>
+					<P class="name" title="Nickel">Ni</P>
+					<P class="number">28</P>
+				</TD>
+				<TD class="transitionmetal">
+					<P class="mass">63.55</P>
+					<P class="name" title="Copper">Cu</P>
+					<P class="number">29</P>
+				</TD>
+				<TD class="transitionmetal">
+					<P class="mass">65.39</P>
+					<P class="name" title="Zinc">Zn</P>
+					<P class="number">30</P>
+				</TD>
+				<TD class="posttransitionmetal">
+					<P class="mass">69.72</P>
+					<P class="name" title="Gallium">Ga</P>
+					<P class="number">31</P>
+				</TD>
+				<TD class="metalloid">
+					<P class="mass">72.63</P>
+					<P class="name" title="Germanium">Ge</P>
+					<P class="number">32</P>
+				</TD>
+				<TD class="metalloid">
+					<P class="mass">74.92</P>
+					<P class="name" title="Arsenic">As</P>
+					<P class="number">33</P>
+				</TD>
+				<TD class="othernonmetal">
+					<P class="mass">78.96</P>
+					<P class="name" title="Selenium">Se</P>
+					<P class="number">34</P>
+				</TD>
+				<TD class="halogen">
+					<P class="mass">79.90</P>
+					<P class="name" title="Bromine">Br</P>
+					<P class="number">35</P>
+				</TD>
+				<TD class="noblegas">
+					<P class="mass">83.80</P>
+					<P class="name" title="Krypton">Kr</P>
+					<P class="number">36</P>
+				</TD>
+			<TR>
+				<TD class="alkalimetal">
+					<P class="mass">85.47</P>
+					<P class="name" title="Rubidium">Rb</P>
+					<P class="number">37</P>
+				</TD>
+				<TD class="alkalineearthmetal">
+					<P class="mass">87.62</P>
+					<P class="name" title="Strontium">Sr</P>
+					<P class="number">38</P>
+				</TD>
+				<TD class="transitionmetal">
+					<P class="mass">88.91</P>
+					<P class="name" title="Yttrium">Y</P>
+					<P class="number">39</P>
+				</TD>
+				<TD class="transitionmetal">
+					<P class="mass">91.22</P>
+					<P class="name" title="Zirconium">Zr</P>
+					<P class="number">40</P>
+				</TD>
+				<TD class="transitionmetal">
+					<P class="mass">92.91</P>
+					<P class="name" title="Niobium">Nb</P>
+					<P class="number">41</P>
+				</TD>
+				<TD class="transitionmetal">
+					<P class="mass">95.94</P>
+					<P class="name" title="Molybdenum">Mo</P>
+					<P class="number">42</P>
+				</TD>
+				<TD class="transitionmetal">
+					<P class="mass">[98]</P>
+					<P class="name" title="Techtenium">Tc</P>
+					<P class="number">43</P>
+				</TD>
+				<TD class="transitionmetal">
+					<P class="mass">101.07</P>
+					<P class="name" title="Ruthenium">Ru</P>
+					<P class="number">44</P>
+				</TD>
+				<TD class="transitionmetal">
+					<P class="mass">102.91</P>
+					<P class="name" title="Rhodium">Rh</P>
+					<P class="number">45</P>
+				</TD>
+				<TD class="transitionmetal">
+					<P class="mass">106.42</P>
+					<P class="name" title="Palladium">Pd</P>
+					<P class="number">46</P>
+				</TD>
+				<TD class="transitionmetal">
+					<P class="mass">107.87</P>
+					<P class="name" title="Silver">Ag</P>
+					<P class="number">47</P>
+				</TD>
+				<TD class="transitionmetal">
+					<P class="mass">112.41</P>
+					<P class="name" title="Cadmium">Cd</P>
+					<P class="number">48</P>
+				</TD>
+				<TD class="posttransitionmetal">
+					<P class="mass">114.82</P>
+					<P class="name" title="Indium">In</P>
+					<P class="number">49</P>
+				</TD>
+				<TD class="posttransitionmetal">
+					<P class="mass">118.71</P>
+					<P class="name" title="Tin">Sn</P>
+					<P class="number">50</P>
+				</TD>
+				<TD class="metalloid">
+					<P class="mass">121.76</P>
+					<P class="name" title="Antimony">Sb</P>
+					<P class="number">51</P>
+				</TD>
+				<TD class="metalloid">
+					<P class="mass">127.60</P>
+					<P class="name" title="Tellurium">Te</P>
+					<P class="number">52</P>
+				</TD>
+				<TD class="halogen">
+					<P class="mass">126.90</P>
+					<P class="name" title="Iodine">I</P>
+					<P class="number">53</P>
+				</TD>
+				<TD class="noblegas">
+					<P class="mass">131.29</P>
+					<P class="name" title="Xenon">Xe</P>
+					<P class="number">54</P>
+				</TD>
+			<TR>
+				<TD class="alkalimetal">
+					<P class="mass">132.91</P>
+					<P class="name" title="Caesium">Cs</P>
+					<P class="number">55</P>
+				</TD>
+				<TD class="alkalineearthmetal">
+					<P class="mass">137.33</P>
+					<P class="name" title="Barium">Ba</P>
+					<P class="number">56</P>
+				</TD>
+				<TD class="lanthanide">
+					<P class="name">...</P>
+				</TD>
+				<TD class="transitionmetal">
+					<P class="mass">178.49</P>
+					<P class="name" title="Hafnium">Hf</P>
+					<P class="number">72</P>
+				</TD>
+				<TD class="transitionmetal">
+					<P class="mass">180.95</P>
+					<P class="name" title="Tantalum">Ta</P>
+					<P class="number">73</P>
+				</TD>
+				<TD class="transitionmetal">
+					<P class="mass">183.84</P>
+					<P class="name" title="Tungsten">W</P>
+					<P class="number">74</P>
+				</TD>
+				<TD class="transitionmetal">
+					<P class="mass">186.21</P>
+					<P class="name" title="Rhenium">Re</P>
+					<P class="number">75</P>
+				</TD>
+				<TD class="transitionmetal">
+					<P class="mass">190.23</P>
+					<P class="name" title="Osmium">Os</P>
+					<P class="number">76</P>
+				</TD>
+				<TD class="transitionmetal">
+					<P class="mass">192.22</P>
+					<P class="name" title="Iridium">Ir</P>
+					<P class="number">77</P>
+				</TD>
+				<TD class="transitionmetal">
+					<P class="mass">195.08</P>
+					<P class="name" title="Platinium">Pt</P>
+					<P class="number">78</P>
+				</TD>
+				<TD class="transitionmetal">
+					<P class="mass">196.97</P>
+					<P class="name" title="Gold">Au</P>
+					<P class="number">79</P>
+				</TD>
+				<TD class="transitionmetal">
+					<P class="mass">200.59</P>
+					<P class="name" title="Mercury">Hg</P>
+					<P class="number">80</P>
+				</TD>
+				<TD class="posttransitionmetal">
+					<P class="mass">204.38</P>
+					<P class="name" title="Thallium">Tl</P>
+					<P class="number">81</P>
+				</TD>
+				<TD class="posttransitionmetal">
+					<P class="mass">207.2</P>
+					<P class="name" title="Lead">Pb</P>
+					<P class="number">82</P>
+				</TD>
+				<TD class="posttransitionmetal">
+					<P class="mass">208.98</P>
+					<P class="name" title="Bismuth">Bi</P>
+					<P class="number">83</P>
+				</TD>
+				<TD class="posttransitionmetal">
+					<P class="mass">[209]</P>
+					<P class="name" title="Polonium">Po</P>
+					<P class="number">84</P>
+				</TD>
+				<TD class="halogen">
+					<P class="mass">[210]</P>
+					<P class="name" title="Astatine">At</P>
+					<P class="number">85</P>
+				</TD>
+				<TD class="noblegas">
+					<P class="mass">[222]</P>
+					<P class="name" title="Radon">Rn</P>
+					<P class="number">86</P>
+				</TD>
+			<TR>
+				<TD class="alkalimetal">
+					<P class="mass">[223]</P>
+					<P class="name" title="Francium">Fr</P>
+					<P class="number">87</P>
+				</TD>
+				<TD class="alkalineearthmetal">
+					<P class="mass">[226]</P>
+					<P class="name" title="Radium">Ra</P>
+					<P class="number">88</P>
+				</TD>
+				<TD class="actinide">
+					<P class="name">...</P>
+				</TD>
+				<TD class="transitionmetal">
+					<P class="mass">[267]</P>
+					<P class="name" title="Rutherfordium">Rf</P>
+					<P class="number">104</P>
+				</TD>
+				<TD class="transitionmetal">
+					<P class="mass">[268]</P>
+					<P class="name" title="Dubnium">Db</P>
+					<P class="number">105</P>
+				</TD>
+				<TD class="transitionmetal">
+					<P class="mass">[269]</P>
+					<P class="name" title="Seaborgium">Sg</P>
+					<P class="number">106</P>
+				</TD>
+				<TD class="transitionmetal">
+					<P class="mass">[270]</P>
+					<P class="name" title="Bohrium">Bh</P>
+					<P class="number">107</P>
+				</TD>
+				<TD class="transitionmetal">
+					<P class="mass">[269]</P>
+					<P class="name" title="Hassium">Hs</P>
+					<P class="number">108</P>
+				</TD>
+				<TD class="unknown">
+					<P class="mass">[278]</P>
+					<P class="name" title="Meitnerium">Mt</P>
+					<P class="number">109</P>
+				</TD>
+				<TD class="unknown">
+					<P class="mass">[281]</P>
+					<P class="name" title="Darmstadtium">Ds</P>
+					<P class="number">110</P>
+				</TD>
+				<TD class="unknown">
+					<P class="mass">[281]</P>
+					<P class="name" title="Roentgenium">Rg</P>
+					<P class="number">111</P>
+				</TD>
+				<TD class="transitionmetal">
+					<P class="mass">[285]</P>
+					<P class="name" title="Copernicium">Cn</P>
+					<P class="number">112</P>
+				</TD>
+				<TD class="unknown">
+					<P class="mass">[286]</P>
+					<P class="name" title="Ununtrium">Uut</P>
+					<P class="number">113</P>
+				</TD>
+				<TD class="unknown">
+					<P class="mass">[289]</P>
+					<P class="name" title="Flerovium">Fl</P>
+					<P class="number">114</P>
+				</TD>
+				<TD class="unknown">
+					<P class="mass">[289]</P>
+					<P class="name" title="Ununpentium">Uup</P>
+					<P class="number">115</P>
+				</TD>
+				<TD class="unknown">
+					<P class="mass">[293]</P>
+					<P class="name" title="Livermorium">Lv</P>
+					<P class="number">116</P>
+				</TD>
+				<TD class="unknown">
+					<P class="mass">[294]</P>
+					<P class="name" title="Ununseptium">Uus</P>
+					<P class="number">117</P>
+				</TD>
+				<TD class="noblegas">
+					<P class="mass">[294]</P>
+					<P class="name" title="Oganesson">Og</P>
+					<P class="number">118</P>
+				</TD>
+			</TR>
+			<TR>
+				<TD></TD>
+			</TR>
+			<TR>
+				<TD></TD>
+				<TD></TD>
+				<TD class="lanthanide">
+					<P class="mass">138.91</P>
+					<P class="name" title="Lanthanum">La</P>
+					<P class="number">57</P>
+				</TD>
+				<TD class="lanthanide">
+					<P class="mass">140.12</P>
+					<P class="name" title="Cerium">Ce</P>
+					<P class="number">58</P>
+				</TD>
+				<TD class="lanthanide">
+					<P class="mass">140.91</P>
+					<P class="name" title="Praseodymium">Pr</P>
+					<P class="number">59</P>
+				</TD>
+				<TD class="lanthanide">
+					<P class="mass">144.24</P>
+					<P class="name" title="Neodymium">Nd</P>
+					<P class="number">60</P>
+				</TD>
+				<TD class="lanthanide">
+					<P class="mass">[145]</P>
+					<P class="name" title="Promethium">Pm</P>
+					<P class="number">61</P>
+				</TD>
+				<TD class="lanthanide">
+					<P class="mass">150.36</P>
+					<P class="name" title="Samarium">Sm</P>
+					<P class="number">62</P>
+				</TD>
+				<TD class="lanthanide">
+					<P class="mass">151.96</P>
+					<P class="name" title="Europium">Eu</P>
+					<P class="number">63</P>
+				</TD>
+				<TD class="lanthanide">
+					<P class="mass">157.25</P>
+					<P class="name" title="Gadolinium">Gd</P>
+					<P class="number">64</P>
+				</TD>
+				<TD class="lanthanide">
+					<P class="mass">158.93</P>
+					<P class="name" title="Terbium">Tb</P>
+					<P class="number">65</P>
+				</TD>
+				<TD class="lanthanide">
+					<P class="mass">162.50</P>
+					<P class="name" title="Dysprosium">Dy</P>
+					<P class="number">66</P>
+				</TD>
+				<TD class="lanthanide">
+					<P class="mass">164.93</P>
+					<P class="name" title="Holmium">Ho</P>
+					<P class="number">67</P>
+				</TD>
+				<TD class="lanthanide">
+					<P class="mass">167.26</P>
+					<P class="name" title="Erbium">Er</P>
+					<P class="number">68</P>
+				</TD>
+				<TD class="lanthanide">
+					<P class="mass">168.93</P>
+					<P class="name" title="Thullium">Tm</P>
+					<P class="number">69</P>
+				</TD>
+				<TD class="lanthanide">
+					<P class="mass">173.04</P>
+					<P class="name" title="Ytterbium">Yb</P>
+					<P class="number">70</P>
+				</TD>
+				<TD class="lanthanide">
+					<P class="mass">174.97</P>
+					<P class="name" title="Lutetium">Lu</P>
+					<P class="number">57</P>
+				</TD>
+				<TD></TD>
+			</TR>
+			<TR>
+				<TD></TD>
+				<TD></TD>
+				<TD class="actinide">
+					<P class="mass">[227]</P>
+					<P class="name" title="Actinium">Ac</P>
+					<P class="number">89</P>
+				</TD>
+				<TD class="actinide">
+					<P class="mass">232.04</P>
+					<P class="name" title="Thorium">Th</P>
+					<P class="number">90</P>
+				</TD>
+				<TD class="actinide">
+					<P class="mass">231.04</P>
+					<P class="name" title="Protactinium">Pa</P>
+					<P class="number">91</P>
+				</TD>
+				<TD class="actinide">
+					<P class="mass">238.03</P>
+					<P class="name" title="Uranium">U</P>
+					<P class="number">92</P>
+				</TD>
+				<TD class="actinide">
+					<P class="mass">[237]</P>
+					<P class="name" title="Neptunium">Np</P>
+					<P class="number">93</P>
+				</TD>
+				<TD class="actinide">
+					<P class="mass">[244]</P>
+					<P class="name" title="Plutonium">Pu</P>
+					<P class="number">94</P>
+				</TD>
+				<TD class="actinide">
+					<P class="mass">[243]</P>
+					<P class="name" title="Americium">Am</P>
+					<P class="number">95</P>
+				</TD>
+				<TD class="actinide">
+					<P class="mass">[247]</P>
+					<P class="name" title="Curium">Cm</P>
+					<P class="number">96</P>
+				</TD>
+				<TD class="actinide">
+					<P class="mass">[247]</P>
+					<P class="name" title="Berkelium">Bk</P>
+					<P class="number">97</P>
+				</TD>
+				<TD class="actinide">
+					<P class="mass">[251]</P>
+					<P class="name" title="Californium">Cf</P>
+					<P class="number">98</P>
+				</TD>
+				<TD class="actinide">
+					<P class="mass">[252]</P>
+					<P class="name" title="Einsteinium">Es</P>
+					<P class="number">99</P>
+				</TD>
+				<TD class="actinide">
+					<P class="mass">[257]</P>
+					<P class="name" title="Fermium">Fm</P>
+					<P class="number">100</P>
+				</TD>
+				<TD class="actinide">
+					<P class="mass">[258]</P>
+					<P class="name" title="Mendelevium">Md</P>
+					<P class="number">101</P>
+				</TD>
+				<TD class="actinide">
+					<P class="mass">[259]</P>
+					<P class="name" title="Nobelium">No</P>
+					<P class="number">102</P>
+				</TD>
+				<TD class="actinide">
+					<P class="mass">[262]</P>
+					<P class="name" title="Lawrencium">Lr</P>
+					<P class="number">103</P>
+				</TD>
+				<TD></TD>
+			</TR>
+		</TABLE>
+	</DIV>
+
+	<TABLE id="key">
+		<TR>
+			<TD class="alkalimetal"></TD>
+			<TD>Alkali metal</TD>
+			<TD class="alkalineearthmetal"></TD>
+			<TD>Alkaline earth metal</TD>
+			<TD class="lanthanide"></TD>
+			<TD>Lanthanide</TD>
+			<TD class="actinide"></TD>
+			<TD>Actinide</TD>
+		</TR>
+		<TR>
+			<TD class="transitionmetal"></TD>
+			<TD>Transition metal</TD>
+			<TD class="posttransitionmetal"></TD>
+			<TD>Post-transition metal</TD>
+			<TD class="Metalloid"></TD>
+			<TD>Metalloid</TD>
+			<TD class="othernonmetal"></TD>
+			<TD>Other nonmetal</TD>
+		</TR>
+		<TR>
+			<TD class="halogen"></TD>
+			<TD>Halogen</TD>
+			<TD class="noblegas"></TD>
+			<TD>Noble gas</TD>
+			<TD class="unknown"></TD>
+			<TD>Unknown</TD>
+			<TD></TD>
+			<TD></TD>
+		</TR>
+	</TABLE>
+</BODY>
+
+</HTML>
