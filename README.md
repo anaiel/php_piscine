@@ -25,17 +25,14 @@ I participated in the piscine between 19-05-20 and 19-06-02.
 ### Day01
 
 Used standard php library functions:
-* `array`
 * `array_filter`
 * `array_merge`
 * `array_values`
 * `count`
-* `echo`
 * `explode`
 * `fgets`
 * `feof`
 * `is_numeric`
 * `natcasesort`
 * `sort`
-* `swicth`
 * `trim`
