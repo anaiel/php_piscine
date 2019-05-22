@@ -65,6 +65,7 @@ Used standard php library functions:
 Used pcre php library functions:
 * `preg_match`
 * `preg_replace`
+
 Used standard php library functions:
 * `strtoupper`
 
