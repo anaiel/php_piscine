@@ -60,7 +60,7 @@ Used standard php library functions:
 | 13 | sing_it! | ✖️ |
 | 14 | L'agent se tâte | ⏳ |
 
-## Day03
+## Day02
 
 Used pcre php library functions:
 * `preg_match`
