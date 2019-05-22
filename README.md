@@ -10,6 +10,8 @@ I participated in the piscine between 19-05-20 and 19-06-02.
 |-----|-------|-----|---------|-------|
 | [00](#Day00) | 05-20 | 05-21 | HTML, CSS | ⏳ |
 | [01](#Day01) | 05-20 | 05-22 | Basic PHP functionc | ⏳ |
+| [02](#Day02) | 05-22 | 05-23 | RegExpr, files | 🚧 |
+| [03](#Day03) | 05-23 | 05-24 | | ✖️ |
 
 ### Day00
 
@@ -57,3 +59,5 @@ Used standard php library functions:
 | 12 | search_it! | ⏳ |
 | 13 | sing_it! | ✖️ |
 | 14 | L'agent se tâte | ⏳ |
+
+## Day03
