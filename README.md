@@ -26,6 +26,7 @@ I participated in the piscine between 19-05-20 and 19-06-02.
 
 Used standard php library functions:
 * `array_filter`
+* `array_key_exists`
 * `array_merge`
 * `array_values`
 * `count`
@@ -33,6 +34,26 @@ Used standard php library functions:
 * `fgets`
 * `feof`
 * `is_numeric`
+* `ksort`
 * `natcasesort`
 * `sort`
+* `strlen`
 * `trim`
+
+| # | Exercise | Status |
+|---|----------|--------|
+| 00 | HW | ⏳ |
+| 01 | mlX | ⏳ |
+| 02 | Au divin | ⏳ |
+| 03 | ft_split | ⏳ |
+| 04 | aff_param | ⏳ |
+| 05 | epur_str | ⏳ |
+| 06 | ssap | ⏳ |
+| 07 | rostring | ⏳ |
+| 08 | ft_is_sort | ⏳ |
+| 09 | ssap - le retour - | ⏳ |
+| 10 | do_op | ⏳ |
+| 11 | do_op_2 | ⏳ |
+| 12 | search_it! | ⏳ |
+| 13 | sing_it! | ✖️ |
+| 14 | L'agent se tâte | ⏳ |
