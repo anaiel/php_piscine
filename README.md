@@ -65,6 +65,7 @@ New standard php library functions:
 New pcre php library functions:
 * `preg_match`
 * `preg_replace`
+* `preg_replace_callback`
 
 New standard php library functions:
 * `strtoupper`
