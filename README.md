@@ -98,6 +98,8 @@ Regexp Cheatsheet:
 | `?` | Zero or one of the preceding toker |
 | `*` | Any number of the preceding token (greedy) |
 | `*?` | Any number of the preceding token (non greedy) |
+| `{int}` | Exact number of the preceding token |
+| `{int1, int2}` | Between `int1` and `int2` of the preceding token |  
 | `...-...` | Range of values |
 | /`^...`/ | Match the begining of a line |
 | /`...$`/ | Match the end of a line |
