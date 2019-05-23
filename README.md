@@ -68,18 +68,48 @@ New pcre php library functions:
 * `preg_replace_callback`
 
 New standard php library functions:
+* `fclose`
+* `fopen`
+* `fread`
+* `is_dir`
+* `is_file`
+* `mkdir`
 * `strtoupper`
+* `unpack`
 
-New time php library functions:
+New date php library functions:
+* `date`
 * `date_default_timezone_set`
 * `mktime`
+
+New curl php library functions:
+* `curl_close`
+* `curl_exec`
+* `curl_init`
+* `curl_setopt`
+
+Regexp Cheatsheet
+
+|---|---|
+| \[...\] | Either character within the brackets |
+| \[^...] | Any character but those between brackets |
+| + | One or more of the preceding token |
+| ? | Zero or one of the preceding toker |
+| \* | Any number of the preceding token (greedy) |
+| \*? | Any number of the preceding token (non greedy) |
+| ...-... | Range of values |
+| /^.../ | Match the begining of a line |
+| /...$/ | Match the end of a line |
+| /.../i | Case insensitive |
+| /.../s | Consider new line as any character |
+| (...|...) | Either expression or the other |
 
 | # | Exercise | Status |
 |---|----------|--------|
 | 00 | Autre monde | ⏳ |
 | 01 | Autre temps | ⏳ |
-| 02 | La Loupe | 🚧 |
-| 03 | Who are you? | ✖️ |
-| 04 | Livre photos | ✖️ |
+| 02 | La Loupe | ⏳ |
+| 03 | Who are you? | ⏳ |
+| 04 | Livre photos | ⏳ |
 | 05 | Dans le D'(e)ni | ✖️ |
 | 06 | Le parchemin | ✖️ |
