@@ -1,0 +1,4 @@
+<html><head><title>Nice page</title></head>
+<body>Hello World <a href=http://cyan.com title="un lien">Ceci est un lien</a>
+<br /><a href=http://www.riven.com> Et <span>ca</span> aussi <img src=wrong.image title="et encore ca"> et ca aussi pitie <img src="mais/pas/ca.jpg" title="et ca aussi">pitie</a>
+</body></html>
