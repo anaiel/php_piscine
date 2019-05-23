@@ -88,21 +88,22 @@ New curl php library functions:
 * `curl_init`
 * `curl_setopt`
 
-Regexp Cheatsheet
+Regexp Cheatsheet:
 
+| `metacharacters` or *flags* | Effect |
 |---|---|
-| \[...\] | Either character within the brackets |
-| \[^...] | Any character but those between brackets |
-| + | One or more of the preceding token |
-| ? | Zero or one of the preceding toker |
-| \* | Any number of the preceding token (greedy) |
-| \*? | Any number of the preceding token (non greedy) |
-| ...-... | Range of values |
-| /^.../ | Match the begining of a line |
-| /...$/ | Match the end of a line |
-| /.../i | Case insensitive |
-| /.../s | Consider new line as any character |
-| (...|...) | Either expression or the other |
+| `[...]` | Either character within the brackets |
+| `[^...]` | Any character but those between brackets |
+| `+` | One or more of the preceding token |
+| `?` | Zero or one of the preceding toker |
+| `*` | Any number of the preceding token (greedy) |
+| `*?` | Any number of the preceding token (non greedy) |
+| `...-...` | Range of values |
+| /`^...`/ | Match the begining of a line |
+| /`...$`/ | Match the end of a line |
+| `(...|...)` | Either expression or the other |
+| *i* | Case insensitive |
+| *s* | Consider new line as any character |
 
 | # | Exercise | Status |
 |---|----------|--------|
