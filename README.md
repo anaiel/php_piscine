@@ -101,7 +101,7 @@ Regexp Cheatsheet:
 | `...-...` | Range of values |
 | /`^...`/ | Match the begining of a line |
 | /`...$`/ | Match the end of a line |
-| `(...|...)` | Either expression or the other |
+| `(...\|...)` | Either expression or the other |
 | *i* | Case insensitive |
 | *s* | Consider new line as any character |
 
