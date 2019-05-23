@@ -10,7 +10,7 @@ I participated in the piscine between 19-05-20 and 19-06-02.
 |-----|-------|-----|---------|-------|
 | [00](#Day00) | 05-20 | 05-21 | HTML, CSS | 90 |
 | [01](#Day01) | 05-20 | 05-22 | Basic PHP functionc | ⏳ |
-| [02](#Day02) | 05-22 | 05-23 | RegExpr, files | 🚧 |
+| [02](#Day02) | 05-22 | 05-23 | RegExpr, files, curl | ⏳ |
 | [03](#Day03) | 05-23 | 05-24 | | ✖️ |
 
 ### Day00
@@ -26,7 +26,7 @@ I participated in the piscine between 19-05-20 and 19-06-02.
 
 ### Day01
 
-Used standard php library functions:
+New standard php library functions:
 * `array_filter`
 * `array_key_exists`
 * `array_merge`
@@ -62,19 +62,57 @@ Used standard php library functions:
 
 ## Day02
 
-Used pcre php library functions:
+New pcre php library functions:
 * `preg_match`
 * `preg_replace`
+* `preg_replace_callback`
 
-Used standard php library functions:
+New standard php library functions:
+* `fclose`
+* `fopen`
+* `fread`
+* `is_dir`
+* `is_file`
+* `mkdir`
 * `strtoupper`
+* `unpack`
+
+New date php library functions:
+* `date`
+* `date_default_timezone_set`
+* `mktime`
+
+New curl php library functions:
+* `curl_close`
+* `curl_exec`
+* `curl_init`
+* `curl_setopt`
+
+Regexp Cheatsheet:
+
+| `metacharacters` or *flags* | Effect |
+|---|---|
+| `[...]` | Either character within the brackets |
+| `[^...]` | Any character but those between brackets |
+| `+` | One or more of the preceding token |
+| `?` | Zero or one of the preceding toker |
+| `*` | Any number of the preceding token (greedy) |
+| `*?` | Any number of the preceding token (non greedy) |
+| `{int}` | Exact number of the preceding token |
+| `{int1, int2}` | Between `int1` and `int2` of the preceding token |  
+| `...-...` | Range of values |
+| /`^...`/ | Match the begining of a line |
+| /`...$`/ | Match the end of a line |
+| `(...\|...)` | Either expression or the other |
+| *i* | Case insensitive |
+| *s* | Consider new line as any character |
 
 | # | Exercise | Status |
 |---|----------|--------|
 | 00 | Autre monde | ⏳ |
 | 01 | Autre temps | ⏳ |
-| 02 | La Loupe | 🚧 |
-| 03 | Who are you? | ✖️ |
-| 04 | Livre photos | ✖️ |
+| 02 | La Loupe | ⏳ |
+| 03 | Who are you? | ⏳ |
+| 04 | Livre photos | ⏳ |
 | 05 | Dans le D'(e)ni | ✖️ |
 | 06 | Le parchemin | ✖️ |
