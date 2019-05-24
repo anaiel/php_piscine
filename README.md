@@ -119,12 +119,20 @@ Regexp Cheatsheet:
 
 ### Day 03
 
+New standard php library functions:
+* `phpinfo`
+* `setcookie`
+
+New date php library functions:
+* `time`
+
+
 | # | Exercise | Status |
 |---|----------|--------|
 | 00 | Dat vhost! | ✖️ |
-| 01 | phpinfo | ✖️ |
-| 02 | print_get | ✖️ |
-| 03 | cookie_crisp | ✖️ |
+| 01 | phpinfo | ⏳ |
+| 02 | print_get | ⏳ |
+| 03 | cookie_crisp | 🚧 |
 | 04 | raw_text | ✖️ |
 | 05 | read_img | ✖️ |
 | 06 | members_only | ✖️ |
