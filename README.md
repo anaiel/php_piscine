@@ -9,7 +9,7 @@ I participated in the piscine between 19-05-20 and 19-06-02.
 | Day | Start | End | Notions | Grade |
 |-----|-------|-----|---------|-------|
 | [00](#Day00) | 05-20 | 05-21 | HTML, CSS | 90 |
-| [01](#Day01) | 05-20 | 05-22 | Basic PHP functionc | ⏳ |
+| [01](#Day01) | 05-20 | 05-22 | Basic PHP functionc | 85 |
 | [02](#Day02) | 05-22 | 05-23 | RegExpr, files, curl | ⏳ |
 | [03](#Day03) | 05-23 | 05-24 | PHP using a server (MAMP) | 🚧 |
 
@@ -42,23 +42,23 @@ New standard php library functions:
 * `strlen`
 * `trim`
 
-| # | Exercise | Status |
-|---|----------|--------|
-| 00 | HW | ⏳ |
-| 01 | mlX | ⏳ |
-| 02 | Au divin | ⏳ |
-| 03 | ft_split | ⏳ |
-| 04 | aff_param | ⏳ |
-| 05 | epur_str | ⏳ |
-| 06 | ssap | ⏳ |
-| 07 | rostring | ⏳ |
-| 08 | ft_is_sort | ⏳ |
-| 09 | ssap - le retour - | ⏳ |
-| 10 | do_op | ⏳ |
-| 11 | do_op_2 | ⏳ |
-| 12 | search_it! | ⏳ |
-| 13 | sing_it! | ✖️ |
-| 14 | L'agent se tâte | ⏳ |
+| # | Exercise | Status | Note |
+|---|----------|--------|------|
+| 00 | HW | ✅ | |
+| 01 | mlX | ✅ | |
+| 02 | Au divin | ✅ | |
+| 03 | ft_split | ✅ | |
+| 04 | aff_param | ✅ | |
+| 05 | epur_str | ✅ | |
+| 06 | ssap | ✅ | |
+| 07 | rostring | ✅ | |
+| 08 | ft_is_sort | ✅ | |
+| 09 | ssap - le retour - | ❌ | Numbers are sorted in numerical order, not ASCII |
+| 10 | do_op | ✅ | |
+| 11 | do_op_2 | ❌ | Not protected against rm -rf / Negative numbers are not handled correctly |
+| 12 | search_it! | ✅ | |
+| 13 | sing_it! | ✖️ | |
+| 14 | L'agent se tâte | ✅ | |
 
 ### Day02
 
@@ -120,7 +120,10 @@ Regexp Cheatsheet:
 ### Day 03
 
 New standard php library functions:
+* `base64_encode`
+* `header`
 * `phpinfo`
+* `readfile`
 * `setcookie`
 
 New date php library functions:
@@ -132,7 +135,7 @@ New date php library functions:
 | 00 | Dat vhost! | ✖️ |
 | 01 | phpinfo | ⏳ |
 | 02 | print_get | ⏳ |
-| 03 | cookie_crisp | 🚧 |
-| 04 | raw_text | ✖️ |
-| 05 | read_img | ✖️ |
-| 06 | members_only | ✖️ |
+| 03 | cookie_crisp | ⏳ |
+| 04 | raw_text | ⏳ |
+| 05 | read_img | ⏳ |
+| 06 | members_only | ⏳ |
