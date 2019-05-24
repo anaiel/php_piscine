@@ -43,7 +43,7 @@ New standard php library functions:
 * `strlen`
 * `trim`
 
-| # | Exercise | Status | Notes |
+| # | Exercise | Status | Correction notes |
 |---|----------|--------|------|
 | 00 | HW | ✅ | |
 | 01 | mlX | ✅ | |
@@ -53,7 +53,7 @@ New standard php library functions:
 | 05 | epur_str | ✅ | |
 | 06 | ssap | ✅ | |
 | 07 | rostring | ✅ | |
-| 08 | ft_is_sort | ✅ | |
+| 08 | ft_is_sort | ✅ | It's only sorted one way |
 | 09 | ssap - le retour - | ❌ | Numbers are sorted in numerical order, not ASCII |
 | 10 | do_op | ✅ | |
 | 11 | do_op_2 | ❌ | Not protected against rm -rf / Negative numbers are not handled correctly |
@@ -108,15 +108,15 @@ Regexp Cheatsheet:
 | *i* | Case insensitive |
 | *s* | Consider new line as any character |
 
-| # | Exercise | Status |
-|---|----------|--------|
-| 00 | Autre monde | ⏳ |
-| 01 | Autre temps | ⏳ |
-| 02 | La Loupe | ⏳ |
-| 03 | Who are you? | ⏳ |
-| 04 | Livre photos | ⏳ |
-| 05 | Dans le D'(e)ni | ✖️ |
-| 06 | Le parchemin | ✖️ |
+| # | Exercise | Status | Correction notes |
+|---|----------|--------|-------|
+| 00 | Autre monde | ⏳ | |
+| 01 | Autre temps | ⏳ | |
+| 02 | La Loupe | ⏳ | |
+| 03 | Who are you? | ⏳ | Blank spaces are actually a little trickier than a simple space character |
+| 04 | Livre photos | ⏳ | |
+| 05 | Dans le D'(e)ni | ✖️ | |
+| 06 | Le parchemin | ✖️ | |
 
 ### Day 03
 
@@ -146,7 +146,7 @@ New date php library functions:
 
 | # | Exercise | Status |
 |---|----------|--------|
-| 00 | session | ✖️ |
+| 00 | session | 🚧 |
 | 01 | create_account | ✖️ |
 | 02 | modif_account | ✖️ |
 | 03 | auth | ✖️ |
