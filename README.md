@@ -6,12 +6,13 @@ I participated in the piscine between 19-05-20 and 19-06-02.
 
 ## Breakdown of the days
 
-| Day | Start | End | Notions | Grade |
+| Day | Start (08:42) | End (23:42) | Notions | Grade |
 |-----|-------|-----|---------|-------|
 | [00](#Day00) | 05-20 | 05-21 | HTML, CSS | 90 |
 | [01](#Day01) | 05-20 | 05-22 | Basic PHP functionc | 85 |
 | [02](#Day02) | 05-22 | 05-23 | RegExpr, files, curl | ⏳ |
-| [03](#Day03) | 05-23 | 05-24 | PHP using a server (MAMP) | ⏳ |
+| [03](#Day03) | 05-23 | 05-24 | PHP using a server (MAMP), superglobals | ⏳ |
+| [04](#Day04) | 05-24 | 05-25 | User session, hash | 🚧 |
 
 ### Day00
 
@@ -140,3 +141,13 @@ New date php library functions:
 | 04 | raw_text | ⏳ |
 | 05 | read_img | ⏳ |
 | 06 | members_only | ⏳ |
+
+### Day 04
+
+| # | Exercise | Status |
+|---|----------|--------|
+| 00 | session | ✖️ |
+| 01 | create_account | ✖️ |
+| 02 | modif_account | ✖️ |
+| 03 | auth | ✖️ |
+| 04 | 42chat | ✖️ |
