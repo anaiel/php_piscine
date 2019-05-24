@@ -144,10 +144,22 @@ New date php library functions:
 
 ### Day 04
 
+New stadard php library functions:
+* `file_exists`
+* `file_put_contents`
+* `serialize`
+* `unserialize`
+
+New session php library functions:
+* `session_start`
+
+New hash php library functions:
+* `hash`
+
 | # | Exercise | Status |
 |---|----------|--------|
-| 00 | session | 🚧 |
-| 01 | create_account | ✖️ |
-| 02 | modif_account | ✖️ |
+| 00 | session | ⏳ |
+| 01 | create_account | ⏳ |
+| 02 | modif_account | 🚧 |
 | 03 | auth | ✖️ |
 | 04 | 42chat | ✖️ |
