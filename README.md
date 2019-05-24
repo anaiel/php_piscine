@@ -11,7 +11,7 @@ I participated in the piscine between 19-05-20 and 19-06-02.
 | [00](#Day00) | 05-20 | 05-21 | HTML, CSS | 90 |
 | [01](#Day01) | 05-20 | 05-22 | Basic PHP functionc | ⏳ |
 | [02](#Day02) | 05-22 | 05-23 | RegExpr, files, curl | ⏳ |
-| [03](#Day03) | 05-23 | 05-24 | | ✖️ |
+| [03](#Day03) | 05-23 | 05-24 | PHP using a server (MAMP) | 🚧 |
 
 ### Day00
 
@@ -60,7 +60,7 @@ New standard php library functions:
 | 13 | sing_it! | ✖️ |
 | 14 | L'agent se tâte | ⏳ |
 
-## Day02
+### Day02
 
 New pcre php library functions:
 * `preg_match`
@@ -116,3 +116,15 @@ Regexp Cheatsheet:
 | 04 | Livre photos | ⏳ |
 | 05 | Dans le D'(e)ni | ✖️ |
 | 06 | Le parchemin | ✖️ |
+
+### Day 03
+
+| # | Exercise | Status |
+|---|----------|--------|
+| 00 | Dat vhost! | ✖️ |
+| 01 | phpinfo | ✖️ |
+| 02 | print_get | ✖️ |
+| 03 | cookie_crisp | ✖️ |
+| 04 | raw_text | ✖️ |
+| 05 | read_img | ✖️ |
+| 06 | members_only | ✖️ |
