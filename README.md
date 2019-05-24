@@ -11,7 +11,7 @@ I participated in the piscine between 19-05-20 and 19-06-02.
 | [00](#Day00) | 05-20 | 05-21 | HTML, CSS | 90 |
 | [01](#Day01) | 05-20 | 05-22 | Basic PHP functionc | 85 |
 | [02](#Day02) | 05-22 | 05-23 | RegExpr, files, curl | ⏳ |
-| [03](#Day03) | 05-23 | 05-24 | PHP using a server (MAMP) | 🚧 |
+| [03](#Day03) | 05-23 | 05-24 | PHP using a server (MAMP) | ⏳ |
 
 ### Day00
 
@@ -42,7 +42,7 @@ New standard php library functions:
 * `strlen`
 * `trim`
 
-| # | Exercise | Status | Note |
+| # | Exercise | Status | Notes |
 |---|----------|--------|------|
 | 00 | HW | ✅ | |
 | 01 | mlX | ✅ | |
@@ -119,6 +119,8 @@ Regexp Cheatsheet:
 
 ### Day 03
 
+Instead of using PAMP as per the instructions, I used MAMP Bitnami.
+
 New standard php library functions:
 * `base64_encode`
 * `header`
@@ -128,7 +130,6 @@ New standard php library functions:
 
 New date php library functions:
 * `time`
-
 
 | # | Exercise | Status |
 |---|----------|--------|
