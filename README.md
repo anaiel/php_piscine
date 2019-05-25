@@ -10,9 +10,9 @@ I participated in the piscine between 19-05-20 and 19-06-02.
 |-----|-------|-----|---------|-------|
 | [00](#Day00) | 05-20 | 05-21 | HTML, CSS | 90 |
 | [01](#Day01) | 05-20 | 05-22 | Basic PHP functionc | 85 |
-| [02](#Day02) | 05-22 | 05-23 | RegExpr, files, curl | ⏳ |
+| [02](#Day02) | 05-22 | 05-23 | RegExpr, files, curl | 60 |
 | [03](#Day03) | 05-23 | 05-24 | PHP using a server (MAMP), superglobals | ⏳ |
-| [04](#Day04) | 05-24 | 05-25 | User session, hash | 🚧 |
+| [04](#Day04) | 05-24 | 05-25 | User session, hash | ⏳ |
 
 ### Day00
 
@@ -110,11 +110,11 @@ Regexp Cheatsheet:
 
 | # | Exercise | Status | Correction notes |
 |---|----------|--------|-------|
-| 00 | Autre monde | ⏳ | |
-| 01 | Autre temps | ⏳ | |
-| 02 | La Loupe | ⏳ | |
-| 03 | Who are you? | ⏳ | Blank spaces are actually a little trickier than a simple space character |
-| 04 | Livre photos | ⏳ | |
+| 00 | Autre monde | ✅ | |
+| 01 | Autre temps | ✅ | |
+| 02 | La Loupe | ✅ | |
+| 03 | Who are you? | ✅ | Blank spaces are actually a little trickier than a simple space character |
+| 04 | Livre photos | ✅ | |
 | 05 | Dans le D'(e)ni | ✖️ | |
 | 06 | Le parchemin | ✖️ | |
 
@@ -162,7 +162,7 @@ New hash php library functions:
 | 01 | create_account | ⏳ |
 | 02 | modif_account | ⏳ |
 | 03 | auth | ⏳ |
-| 04 | 42chat | ✖️ |
+| 04 | 42chat | ⏳ |
 
 
 ## Rushes
