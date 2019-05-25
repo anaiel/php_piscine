@@ -160,6 +160,12 @@ New hash php library functions:
 |---|----------|--------|
 | 00 | session | ⏳ |
 | 01 | create_account | ⏳ |
-| 02 | modif_account | 🚧 |
-| 03 | auth | ✖️ |
+| 02 | modif_account | ⏳ |
+| 03 | auth | ⏳ |
 | 04 | 42chat | ✖️ |
+
+
+## Rushes
+
+### Rush 00
+
