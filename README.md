@@ -169,7 +169,7 @@ New hash php library functions:
 
 | # | Exercise | Status |
 |---|----------|--------|
-| 00 | db_local | ✖️ |
+| 00 | db_local | 🚧 |
 | 01 | ft_table | ✖️ |
 | 02 | Données en masse | ✖️ |
 | 03 | Copieur! | ✖️ |
