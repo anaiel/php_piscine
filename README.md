@@ -13,6 +13,7 @@ I participated in the piscine between 19-05-20 and 19-06-02.
 | [02](#Day02) | 05-22 | 05-23 | RegExpr, files, curl | 60 |
 | [03](#Day03) | 05-23 | 05-24 | PHP using a server (MAMP), superglobals | ⏳ |
 | [04](#Day04) | 05-24 | 05-25 | User session, hash | ⏳ |
+| [05](#Day05) | 05-27 | 05-28 | Mysql | 🚧 |
 
 ### Day00
 
@@ -164,6 +165,32 @@ New hash php library functions:
 | 03 | auth | ⏳ |
 | 04 | 42chat | ⏳ |
 
+### Day 05
+
+| # | Exercise | Status |
+|---|----------|--------|
+| 00 | db_local | ✖️ |
+| 01 | ft_table | ✖️ |
+| 02 | Données en masse | ✖️ |
+| 03 | Copieur! | ✖️ |
+| 04 | Mise à joue, veuillez redémarrer | ✖️ |
+| 05 | Petit nettoyage | ✖️ |
+| 06 | Où est vinc'? | ✖️ |
+| 07 | 42 is everywhere! | ✖️ |
+| 08 | La belle époque | ✖️ |
+| 09 | Court-tragemé | ✖️ |
+| 10 | On est pas bien là ? | ✖️ |
+| 11 | L'argent c'est capital | ✖️ |
+| 12 | Pourquoi faire simple quand on veut faire compliqué? | ✖️ |
+| 13 | Tu veux des maths? | ✖️ |
+| 14 | Toi, tu vas relire... | ✖️ |
+| 15 | C'est quoi ton phone? | ✖️ |
+| 16 | Noël avant l'heure | ✖️ |
+| 17 | Les mats - LE RETOUR | ✖️ |
+| 18 | Y'a des limites quand même | ✖️ |
+| 19 | Retour vers le futu | ✖️ |
+| 20 | La totale | ✖️ |
+| 21 | MD5? Non FT5! | ✖️ |
 
 ## Rushes
 
