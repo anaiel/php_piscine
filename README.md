@@ -11,8 +11,8 @@ I participated in the piscine between 19-05-20 and 19-06-02.
 | [00](#Day00) | 05-20 | 05-21 | HTML, CSS | 90 |
 | [01](#Day01) | 05-20 | 05-22 | Basic PHP functionc | 85 |
 | [02](#Day02) | 05-22 | 05-23 | RegExpr, files, curl | 60 |
-| [03](#Day03) | 05-23 | 05-24 | PHP using a server (MAMP), superglobals | ⏳ |
-| [04](#Day04) | 05-24 | 05-25 | User session, hash | ⏳ |
+| [03](#Day03) | 05-23 | 05-24 | PHP using a server (MAMP), superglobals | 100 |
+| [04](#Day04) | 05-24 | 05-25 | User session, hash | 100 |
 | [05](#Day05) | 05-27 | 05-28 | Mysql | 🚧 |
 
 ### Day00
@@ -136,12 +136,12 @@ New date php library functions:
 | # | Exercise | Status |
 |---|----------|--------|
 | 00 | Dat vhost! | ✖️ |
-| 01 | phpinfo | ⏳ |
-| 02 | print_get | ⏳ |
-| 03 | cookie_crisp | ⏳ |
-| 04 | raw_text | ⏳ |
-| 05 | read_img | ⏳ |
-| 06 | members_only | ⏳ |
+| 01 | phpinfo | ✅ |
+| 02 | print_get | ✅ |
+| 03 | cookie_crisp | ✅ |
+| 04 | raw_text | ✅ |
+| 05 | read_img | ✅ |
+| 06 | members_only | ✅ |
 
 ### Day 04
 
@@ -157,27 +157,27 @@ New session php library functions:
 New hash php library functions:
 * `hash`
 
-| # | Exercise | Status |
-|---|----------|--------|
-| 00 | session | ⏳ |
-| 01 | create_account | ⏳ |
-| 02 | modif_account | ⏳ |
-| 03 | auth | ⏳ |
-| 04 | 42chat | ⏳ |
+| # | Exercise | Status | Correction notes |
+|---|----------|--------|------------------|
+| 00 | session | ✅ | |
+| 01 | create_account | ✅ | |
+| 02 | modif_account | ✅ | |
+| 03 | auth | ✅ | |
+| 04 | 42chat | ✅ | Password instead of login in the chat ! |
 
 ### Day 05
 
 | # | Exercise | Status |
 |---|----------|--------|
-| 00 | db_local | 🚧 |
-| 01 | ft_table | ✖️ |
-| 02 | Données en masse | ✖️ |
-| 03 | Copieur! | ✖️ |
-| 04 | Mise à joue, veuillez redémarrer | ✖️ |
-| 05 | Petit nettoyage | ✖️ |
-| 06 | Où est vinc'? | ✖️ |
-| 07 | 42 is everywhere! | ✖️ |
-| 08 | La belle époque | ✖️ |
+| 00 | db_local | ⏳ |
+| 01 | ft_table | ⏳ |
+| 02 | Données en masse | ⏳ |
+| 03 | Copieur! | ⏳ |
+| 04 | Mise à joue, veuillez redémarrer | ⏳ |
+| 05 | Petit nettoyage | ⏳ |
+| 06 | Où est vinc'? | ⏳ |
+| 07 | 42 is everywhere! | ⏳ |
+| 08 | La belle époque | 🚧 |
 | 09 | Court-tragemé | ✖️ |
 | 10 | On est pas bien là ? | ✖️ |
 | 11 | L'argent c'est capital | ✖️ |
