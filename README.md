@@ -179,11 +179,11 @@ New hash php library functions:
 | 07 | 42 is everywhere! | ⏳ |
 | 08 | La belle époque | ⏳ |
 | 09 | Court-tragemé | ⏳ |
-| 10 | On est pas bien là ? | ✖️ |
-| 11 | L'argent c'est capital | ✖️ |
-| 12 | Pourquoi faire simple quand on veut faire compliqué? | ✖️ |
-| 13 | Tu veux des maths? | ✖️ |
-| 14 | Toi, tu vas relire... | ✖️ |
+| 10 | On est pas bien là ? | ⏳ |
+| 11 | L'argent c'est capital | ⏳ |
+| 12 | Pourquoi faire simple quand on veut faire compliqué? | ⏳ |
+| 13 | Tu veux des maths? | ⏳ |
+| 14 | Toi, tu vas relire... | ⏳ |
 | 15 | C'est quoi ton phone? | ✖️ |
 | 16 | Noël avant l'heure | ✖️ |
 | 17 | Les mats - LE RETOUR | ✖️ |
