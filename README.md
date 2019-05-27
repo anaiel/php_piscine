@@ -13,7 +13,7 @@ I participated in the piscine between 19-05-20 and 19-06-02.
 | [02](#Day02) | 05-22 | 05-23 | RegExpr, files, curl | 60 |
 | [03](#Day03) | 05-23 | 05-24 | PHP using a server (MAMP), superglobals | 100 |
 | [04](#Day04) | 05-24 | 05-25 | User session, hash | 100 |
-| [05](#Day05) | 05-27 | 05-28 | Mysql | 🚧 |
+| [05](#Day05) | 05-27 | 05-28 | mySQL queries | 🚧 |
 
 ### Day00
 
@@ -177,8 +177,8 @@ New hash php library functions:
 | 05 | Petit nettoyage | ⏳ |
 | 06 | Où est vinc'? | ⏳ |
 | 07 | 42 is everywhere! | ⏳ |
-| 08 | La belle époque | 🚧 |
-| 09 | Court-tragemé | ✖️ |
+| 08 | La belle époque | ⏳ |
+| 09 | Court-tragemé | ⏳ |
 | 10 | On est pas bien là ? | ✖️ |
 | 11 | L'argent c'est capital | ✖️ |
 | 12 | Pourquoi faire simple quand on veut faire compliqué? | ✖️ |
