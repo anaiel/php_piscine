@@ -189,13 +189,13 @@ New hash php library functions:
 | 12 | Pourquoi faire simple quand on veut faire compliqué? | ⏳ |
 | 13 | Tu veux des maths? | ⏳ |
 | 14 | Toi, tu vas relire... | ⏳ |
-| 15 | C'est quoi ton phone? | ✖️ |
-| 16 | Noël avant l'heure | ✖️ |
-| 17 | Les mats - LE RETOUR | ✖️ |
-| 18 | Y'a des limites quand même | ✖️ |
-| 19 | Retour vers le futu | ✖️ |
-| 20 | La totale | ✖️ |
-| 21 | MD5? Non FT5! | ✖️ |
+| 15 | C'est quoi ton phone? | ⏳ |
+| 16 | Noël avant l'heure | ⏳ |
+| 17 | Les mats - LE RETOUR | ⏳ |
+| 18 | Y'a des limites quand même | ⏳ |
+| 19 | Retour vers le futur | ⏳ |
+| 20 | La totale | ⏳ |
+| 21 | MD5? Non FT5! | ⏳ |
 
 ## Rushes
 
