@@ -4,6 +4,11 @@ The Piscine PHP is a 2 weeks intensive program to learn the basics of PHP at the
 
 I participated in the piscine between 19-05-20 and 19-06-02.
 
+## Table of contents
+
+1. [Breakdown of the days](#Breakdown of the days)
+2. [Rushes](#Rushes)
+
 ## Breakdown of the days
 
 | Day | Start (08:42) | End (23:42) | Notions | Grade |
@@ -119,7 +124,7 @@ Regexp Cheatsheet:
 | 05 | Dans le D'(e)ni | ✖️ | |
 | 06 | Le parchemin | ✖️ | |
 
-### Day 03
+### Day03
 
 Instead of using PAMP as per the instructions, I used MAMP Bitnami.
 
@@ -143,7 +148,7 @@ New date php library functions:
 | 05 | read_img | ✅ |
 | 06 | members_only | ✅ |
 
-### Day 04
+### Day04
 
 New stadard php library functions:
 * `file_exists`
@@ -165,7 +170,7 @@ New hash php library functions:
 | 03 | auth | ✅ | |
 | 04 | 42chat | ✅ | Password instead of login in the chat ! |
 
-### Day 05
+### Day05
 
 | # | Exercise | Status |
 |---|----------|--------|
@@ -194,5 +199,5 @@ New hash php library functions:
 
 ## Rushes
 
-### Rush 00
+### Rush00
 
