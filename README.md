@@ -18,7 +18,8 @@ I participated in the piscine between 19-05-20 and 19-06-02.
 | [02](#Day02) | 05-22 | 05-23 | RegExpr, files, curl | 60 |
 | [03](#Day03) | 05-23 | 05-24 | PHP using a server (MAMP), superglobals | 100 |
 | [04](#Day04) | 05-24 | 05-25 | User session, hash | 100 |
-| [05](#Day05) | 05-27 | 05-28 | mySQL queries | 🚧 |
+| [05](#Day05) | 05-27 | 05-28 | mySQL queries | ⏳ |
+| [06](#Day06) | 05-28 | 05-29 | Object oriented programming | 🚧 |
 
 ### Day00
 
@@ -196,6 +197,18 @@ New hash php library functions:
 | 19 | Retour vers le futur | ⏳ |
 | 20 | La totale | ⏳ |
 | 21 | MD5? Non FT5! | ⏳ |
+
+## Day06
+
+| # | Exercise | Status |
+|---|----------|--------|
+| 00 | La classe Color | ✖️ |
+| 01 | La classe Vertex | ✖️ |
+| 02 | La classe Vector | ✖️ |
+| 03 | La classe Matrix | ✖️ |
+| 04 | La classe Camera | ✖️ |
+| 05 | Les classes Triangle et Render | ✖️ |
+| 06 | Bonus : La classe Texture | ✖️ |
 
 ## Rushes
 
