@@ -203,7 +203,7 @@ New hash php library functions:
 | # | Exercise | Status |
 |---|----------|--------|
 | 00 | La classe Color | ⏳ |
-| 01 | La classe Vertex | ✖️ |
+| 01 | La classe Vertex | ⏳ |
 | 02 | La classe Vector | ✖️ |
 | 03 | La classe Matrix | ✖️ |
 | 04 | La classe Camera | ✖️ |
