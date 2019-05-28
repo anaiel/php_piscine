@@ -1,0 +1,310 @@
+/* *********** COLORS ************* */
+:root {
+	--header-bg: #028090;
+	--navbar-bg: #E4FDE1;
+	--connexion-bg: #114B5F;
+	--highlight: #F45B69;
+}
+
+body {
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	padding: 0;
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+/* *********** HEADER ************* */
+#header {
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	display: table;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	background-color: var(--header-bg);
+	height: 130px;
+	margin: 0;
+	padding: 0;
+	color: white;
+	z-index:1000;
+}
+
+#header h1 {
+	font-size: 98px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: auto;
+	height: 130px;
+	margin: 0;
+	padding: 0;
+}
+
+#connexion{
+	width: 300px;
+	height: 130px;
+	position: relative;
+	float:right;
+	margin: 0;
+	padding: 0;
+	overflow: none;
+}
+
+#connexion p {
+	font-size: 12px;
+}
+
+#cart {
+	position: relative;
+	float: right;
+	padding: 0;
+	margin: 0;
+	font-size: 12px;
+	width: 100px;
+	height: 100%;
+	padding: 10px;
+	background-color: var(--highlight);
+}
+
+#cart img {
+	width: 50px;
+	height: 50px;
+	margin: auto;
+	display: block;
+}
+
+#nb_items {
+	position: absolute;
+	top: 10px;
+	right: 20px;
+	margin: 0;
+	padding: 0;
+	max-width: 18px;
+	height: 18px;
+	vertical-align: middle;
+	text-align: center;
+	border-radius: 10px;
+	background-color: var(--connexion-bg);
+	width: 18px;
+}
+
+	/* LOG IN */
+	#login {
+		width: 100%;
+		background-color: var(--connexion-bg);
+		height: 130px;
+		padding: 5px;
+		overflow: none;
+		color: white;
+		font-family: Verdana, Geneva, Tahoma, sans-serif;
+	}
+
+	#login form {
+		margin: 0;
+		padding: 0;
+	}
+
+	#login table {
+		padding: 0;
+		margin: 0;
+		color: white;
+	}
+
+	#login td {
+		text-align: right;
+	}
+
+	#login button,
+	#login input[type=submit] {
+		background-color: white;
+		border-radius: 5px;
+		width: 150px;
+		margin: 2;
+		padding: 0 2;
+		color: var(--connexion-bg);
+		border: none;
+	}
+
+	#login button {
+		background-color: var(--highlight);
+		color: white;
+		font-style: italic;
+		font-weight: bold;
+	}
+
+/* ********* NAV BAR ************* */
+#nav_bar {
+	display: block;
+	position: fixed;
+	top: 130px;
+	width: 100%;
+	background-color: var(--navbar-bg);
+	height: 50px;
+	margin: 0;
+	padding: 0;
+	z-index:1001;
+}
+
+#categories::after {
+	content: "";
+	display: block;
+	width: 80%;
+	margin: 0 auto;
+	list-style: none;
+	clear: both;
+}
+
+.category {
+	display: inline-block;
+	position: relative;
+	width: 25%;
+	margin: 0 auto;
+}
+
+.subcategories{
+	padding: 15px 30px;
+	display: none;
+	left: 0;
+	position: absolute;
+	list-style: none;
+	background-color: rgba(110, 110, 116, 0.1);
+}
+
+.category:hover .subcategories {
+	border-top: 5px solid grey;
+	padding:15px 30px;
+	width: 270px;
+	display: inline-block;
+	font-size: 20px;
+	position: absolute;
+	margin-top: 20px;
+	z-index: 100000;
+}
+
+/* *********** CONTENT ************ */
+#content {
+	position: relative;
+	width: 80%;
+	max-width: 80%;
+	margin: 340px auto 0 auto;
+	z-index:500;
+}
+
+#content img {
+	width: 100%;
+	max-width: 100%;
+}
+
+#content_item {
+	position: relative;
+	width: 70%;
+	max-width: 70%;
+	margin: 325px 100 0 auto;
+}
+
+#content_item img {
+	width: 70%;
+	max-width: 70%;
+}
+
+#centerpiece {
+	background-image: url("/Rush0/images/home/fleurs.jpg");
+	font-size: 300;
+	font-family: cursive;
+	text-align:center;
+	color: white;
+	width:100%;
+	height: 800px;
+}
+
+.error,
+.success {
+	display: block;
+	width: 70%;
+	padding: 20px;
+	margin: 10px;
+}
+
+.error {
+	background-color: #ffcece;
+	border: 2px solid #ff0000;
+}
+
+.success {
+	background-color: #ceffd7;
+	border: 2px solid #00a31d;
+}
+
+/* ************ CATALOG *********** */
+.item {
+	width: 200px;
+	display: inline-block;
+	margin: 10px;
+	padding: 10px;
+	border: 1px solid var(--header-bg);
+	position: relative;
+}
+
+.item img {
+	width: 180px;
+	height: 150px;
+}
+
+.description {
+	display: none;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100%;
+	background-color: var(--connexion-bg);
+	color: white;
+}
+
+.item:hover .description {
+	display: block;
+}
+
+/* ************ USER *********** */
+
+#modif_panier {
+margin: 325px auto 0 200;
+}
+
+#panier {
+	margin: 325px auto 0 200;
+	}
+
+#modif {
+	margin-right: 150px;
+		}
+/* ************ FOOTER ************* */
+#footer {
+	position: relative;
+	z-index:700;
+	bottom: 0;
+	display: block;
+	width: 100%;
+	background-color: var(--navbar-bg);
+	color: var(--connexion-bg);
+	height: 100px;
+	margin: 0px;
+}
+
+#footer li {
+	list-style: none;
+	display: inline-block;
+	width: 150px;
+	text-align: center;
+}
+
+#admin_link {
+	position: absolute;
+	right : 10px;
+	background-color: var(--highlight);
+	border-radius: 10px;
+	padding: 10px;
+}
