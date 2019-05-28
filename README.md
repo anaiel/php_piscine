@@ -202,7 +202,7 @@ New hash php library functions:
 
 | # | Exercise | Status |
 |---|----------|--------|
-| 00 | La classe Color | ✖️ |
+| 00 | La classe Color | ⏳ |
 | 01 | La classe Vertex | ✖️ |
 | 02 | La classe Vector | ✖️ |
 | 03 | La classe Matrix | ✖️ |
@@ -211,6 +211,10 @@ New hash php library functions:
 | 06 | Bonus : La classe Texture | ✖️ |
 
 ## Rushes
+
+| # | Start | End | Description | Grade |
+|---|-------|-----|-------------|-------|
+| 00 | 05-25 | 05-26 | Create a website for an online shop | 92 |
 
 ### Rush00
 
