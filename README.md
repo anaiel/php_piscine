@@ -19,7 +19,8 @@ I participated in the piscine between 19-05-20 and 19-06-02.
 | [03](#Day03) | 05-23 | 05-24 | PHP using a server (MAMP), superglobals | 100 |
 | [04](#Day04) | 05-24 | 05-25 | User session, hash | 100 |
 | [05](#Day05) | 05-27 | 05-28 | mySQL queries | ⏳ |
-| [06](#Day06) | 05-28 | 05-29 | Object oriented programming | 🚧 |
+| [06](#Day06) | 05-28 | 05-29 | Object oriented programming (modular) | ⏳ |
+| [07](#Day07) | 05-29 | 05-30 | Inheritance | 🚧 |
 
 ### Day00
 
