@@ -206,8 +206,8 @@ New hash php library functions:
 | 00 | La classe Color | ⏳ |
 | 01 | La classe Vertex | ⏳ |
 | 02 | La classe Vector | ⏳ |
-| 03 | La classe Matrix | ✖️ |
-| 04 | La classe Camera | ✖️ |
+| 03 | La classe Matrix | ⏳ |
+| 04 | La classe Camera | ⏳ |
 | 05 | Les classes Triangle et Render | ✖️ |
 | 06 | Bonus : La classe Texture | ✖️ |
 
