@@ -204,11 +204,23 @@ New hash php library functions:
 |---|----------|--------|
 | 00 | La classe Color | ⏳ |
 | 01 | La classe Vertex | ⏳ |
-| 02 | La classe Vector | ✖️ |
+| 02 | La classe Vector | ⏳ |
 | 03 | La classe Matrix | ✖️ |
 | 04 | La classe Camera | ✖️ |
 | 05 | Les classes Triangle et Render | ✖️ |
 | 06 | Bonus : La classe Texture | ✖️ |
+
+## Day07
+
+| # | Exercise | Status |
+|---|----------|--------|
+| 00 | Short and proud | ✖️ |
+| 01 | Words of honor | ✖️ |
+| 02 | Fireproofing | ✖️ |
+| 03 | Playing house | ✖️ |
+| 04 | His sister? Seriously? | ✖️ |
+| 05 | Winter is coming | ✖️ |
+| 06 | The wrong kind of pact | ✖️ |
 
 ## Rushes
 
