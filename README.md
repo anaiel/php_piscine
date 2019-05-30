@@ -19,7 +19,7 @@ I participated in the piscine between 19-05-20 and 19-06-02.
 | [03](#Day03) | 05-23 | 05-24 | PHP using a server (MAMP), superglobals | 100 |
 | [04](#Day04) | 05-24 | 05-25 | User session, hash | 100 |
 | [05](#Day05) | 05-27 | 05-28 | mySQL queries | ⏳ |
-| [06](#Day06) | 05-28 | 05-29 | Object oriented programming (modular) | ⏳ |
+| [06](#Day06) | 05-28 | 05-29 | Object oriented programming (modular) | 44 |
 | [07](#Day07) | 05-29 | 05-30 | Inheritance | ⏳ |
 | [08](#Day08) | 05-30 | 05-31 | Traits | 🚧 |
 
@@ -202,15 +202,15 @@ New hash php library functions:
 
 ### Day06
 
-| # | Exercise | Status |
-|---|----------|--------|
-| 00 | La classe Color | ⏳ |
-| 01 | La classe Vertex | ⏳ |
-| 02 | La classe Vector | ⏳ |
-| 03 | La classe Matrix | ⏳ |
-| 04 | La classe Camera | ⏳ |
-| 05 | Les classes Triangle et Render | ✖️ |
-| 06 | Bonus : La classe Texture | ✖️ |
+| # | Exercise | Status | Correction notes |
+|---|----------|--------|------------------|
+| 00 | La classe Color | ✅ | |
+| 01 | La classe Vertex | ✅ | |
+| 02 | La classe Vector | ✅ | |
+| 03 | La classe Matrix | ❌ | Disputable because the subject isn't clear, but the mult method should not return a new matrix, but only modify the current matrix |
+| 04 | La classe Camera | ✅ | |
+| 05 | Les classes Triangle et Render | ✖️ | |
+| 06 | Bonus : La classe Texture | ✖️ | |
 
 ### Day07
 
