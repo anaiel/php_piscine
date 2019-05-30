@@ -4,6 +4,11 @@ The Piscine PHP is a 2 weeks intensive program to learn the basics of PHP at the
 
 I participated in the piscine between 19-05-20 and 19-06-02.
 
+## Table of contents
+
+1. [Breakdown of the days](#Breakdown-of-the-days)
+2. [Rushes](#Rushes)
+
 ## Breakdown of the days
 
 | Day | Start (08:42) | End (23:42) | Notions | Grade |
@@ -13,7 +18,9 @@ I participated in the piscine between 19-05-20 and 19-06-02.
 | [02](#Day02) | 05-22 | 05-23 | RegExpr, files, curl | 60 |
 | [03](#Day03) | 05-23 | 05-24 | PHP using a server (MAMP), superglobals | 100 |
 | [04](#Day04) | 05-24 | 05-25 | User session, hash | 100 |
-| [05](#Day05) | 05-27 | 05-28 | mySQL queries | 🚧 |
+| [05](#Day05) | 05-27 | 05-28 | mySQL queries | ⏳ |
+| [06](#Day06) | 05-28 | 05-29 | Object oriented programming (modular) | ⏳ |
+| [07](#Day07) | 05-29 | 05-30 | Inheritance | 🚧 |
 
 ### Day00
 
@@ -119,7 +126,7 @@ Regexp Cheatsheet:
 | 05 | Dans le D'(e)ni | ✖️ | |
 | 06 | Le parchemin | ✖️ | |
 
-### Day 03
+### Day03
 
 Instead of using PAMP as per the instructions, I used MAMP Bitnami.
 
@@ -143,7 +150,7 @@ New date php library functions:
 | 05 | read_img | ✅ |
 | 06 | members_only | ✅ |
 
-### Day 04
+### Day04
 
 New stadard php library functions:
 * `file_exists`
@@ -165,7 +172,7 @@ New hash php library functions:
 | 03 | auth | ✅ | |
 | 04 | 42chat | ✅ | Password instead of login in the chat ! |
 
-### Day 05
+### Day05
 
 | # | Exercise | Status |
 |---|----------|--------|
@@ -184,15 +191,43 @@ New hash php library functions:
 | 12 | Pourquoi faire simple quand on veut faire compliqué? | ⏳ |
 | 13 | Tu veux des maths? | ⏳ |
 | 14 | Toi, tu vas relire... | ⏳ |
-| 15 | C'est quoi ton phone? | ✖️ |
-| 16 | Noël avant l'heure | ✖️ |
-| 17 | Les mats - LE RETOUR | ✖️ |
-| 18 | Y'a des limites quand même | ✖️ |
-| 19 | Retour vers le futu | ✖️ |
-| 20 | La totale | ✖️ |
-| 21 | MD5? Non FT5! | ✖️ |
+| 15 | C'est quoi ton phone? | ⏳ |
+| 16 | Noël avant l'heure | ⏳ |
+| 17 | Les mats - LE RETOUR | ⏳ |
+| 18 | Y'a des limites quand même | ⏳ |
+| 19 | Retour vers le futur | ⏳ |
+| 20 | La totale | ⏳ |
+| 21 | MD5? Non FT5! | ⏳ |
+
+## Day06
+
+| # | Exercise | Status |
+|---|----------|--------|
+| 00 | La classe Color | ⏳ |
+| 01 | La classe Vertex | ⏳ |
+| 02 | La classe Vector | ⏳ |
+| 03 | La classe Matrix | ⏳ |
+| 04 | La classe Camera | ⏳ |
+| 05 | Les classes Triangle et Render | ✖️ |
+| 06 | Bonus : La classe Texture | ✖️ |
+
+## Day07
+
+| # | Exercise | Status |
+|---|----------|--------|
+| 00 | Short and proud | ✖️ |
+| 01 | Words of honor | ✖️ |
+| 02 | Fireproofing | ✖️ |
+| 03 | Playing house | ✖️ |
+| 04 | His sister? Seriously? | ✖️ |
+| 05 | Winter is coming | ✖️ |
+| 06 | The wrong kind of pact | ✖️ |
 
 ## Rushes
 
-### Rush 00
+| # | Start | End | Description | Grade |
+|---|-------|-----|-------------|-------|
+| 00 | 05-25 | 05-26 | Create a website for an online shop | 92 |
+
+### Rush00
 
