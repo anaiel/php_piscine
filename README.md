@@ -200,7 +200,7 @@ New hash php library functions:
 | 20 | La totale | ⏳ |
 | 21 | MD5? Non FT5! | ⏳ |
 
-## Day06
+### Day06
 
 | # | Exercise | Status |
 |---|----------|--------|
@@ -212,7 +212,7 @@ New hash php library functions:
 | 05 | Les classes Triangle et Render | ✖️ |
 | 06 | Bonus : La classe Texture | ✖️ |
 
-## Day07
+### Day07
 
 | # | Exercise | Status |
 |---|----------|--------|
@@ -224,7 +224,7 @@ New hash php library functions:
 | 05 | Winter is coming | ⏳ |
 | 06 | The wrong kind of pact | ⏳ |
 
-## Day08
+### Day08
 
 ## Rushes
 
