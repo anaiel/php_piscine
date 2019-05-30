@@ -1,0 +1,48 @@
+<- Matrix ----------------------------------------------------------------------
+The Matrix class handles 4x4 matrices.
+
+The instances can be constructed in two ways: preset matrices or free
+matrices.
+
+Particular matrices require a preset key with a value corresponding to one of
+the following class constants:
+IDENTITY
+    new Matrix( array( 'preset' => Matrix::IDENTITY ) );
+SCALE
+    also requires a 'scale' value
+    new Matrix( array( 'preset' => Matrix::SCALE, 'scale' => 10.0 ) );
+TRANSLATION
+    also requires a 'vtc' value, which must be an instance of the Vector class
+    new Matrix( array( 'preset' => Matrix::TRANSLATION, 'vtc' => $vtc ) );
+RX, RY, RZ
+    also require an 'angle' value
+    correspond respectively to a rotation along the X, Y or Z axis
+    new Matrix( array( 'preset' => Matrix::RX, 'angle' => M_PI_4 ) );
+PROJECTION
+    also requires a 'fov', 'ratio', 'near' and 'far' value
+    corresponds to a projection in a 2D space
+    $P = new Matrix( array( 'preset' => Matrix::PROJECTION,
+						    'fov' => 60,
+						    'ratio' => 640/480,
+						    'near' => 1.0,
+						    'far' => -50.0 ) );
+
+Free matrices construction requires an array with 16 numerical values (key 
+'setMatrix').
+new Matrix ( array( 'setMatrix' => array( 1, 0, 8, 0,
+										  0, 1, 0, 5,
+										  3, 0, 1, 0,
+										  6, 0, 0, 1); ) );
+
+The Matrix class offers an accessor which returns an array of 16 values:
+array   getMatrix ();
+
+The Matrix class provides the following methods :
+
+Matrix  mult ( Matrix $rhs );
+Returns the dot product of the current Matrix and the parameter.
+
+Vertex  transformVertex ( Vertex $vtx );
+Returns the result of the transformation of the provided Vertex with the
+current transformation Matrix.
+---------------------------------------------------------------------- Matrix ->

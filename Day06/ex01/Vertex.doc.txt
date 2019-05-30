@@ -1,0 +1,33 @@
+<- Vertex ----------------------------------------------------------------------
+The Vertex class handes vertices coordinates and color.
+
+An instance must be constructed with x, y, and z values.
+new Vertex (array('x' => 0, 'y' => 0, 'z' => 0));
+
+w and color values are optional in the construction. When not used, they default
+to 1.0 and white (defined as an instance of the Class color constructed with the
+0xffffff RGB value).
+new Vertex (array(
+    'x' => 0,
+    'y' => 0,
+    'z' => 0,
+    'w' => 0.8,
+    'color' => new Color (array('rgb' => 0xff0000))
+));
+
+x, y, z, w and color are private variables. They can be accessed with the
+following methods:
+GETTERS:
+    float   getX( );
+    float   getY( );
+    float   getZ( );
+    float   getW( );
+    Color getColor( );
+SETTERS (give the variables the value passed as a parameter as is):
+    setX( $val );
+    setY ( $val );
+    setZ( $val );
+    setW( $val );
+    setColor( Color $val );
+
+---------------------------------------------------------------------- Vertex ->

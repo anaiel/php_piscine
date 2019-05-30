@@ -1,0 +1,20 @@
+<- Camera ----------------------------------------------------------------------
+The Camera class simulates an observer to allow for 2D projection.
+
+A Camera instance is constructed from the following parameters:
+Vertex origin : position of the camera in the 3D world
+Matrix orientation : rotation matrix for the orientation of the camera
+float ratio : ratio of the 2D projection image. Is also accepted as a
+    combination of:
+    float width
+    float height
+float fov : field of vision of the projected image
+float near : near clipping
+float far : far clipping
+
+The Camera instance provides the following method:
+
+Vertex watchVertex ( Vertex $worldVertex );
+Projects the vertex from the 3D world to a 2D image from the viewpoint of the
+current Camera instance.
+---------------------------------------------------------------------- Camera ->
