@@ -18,10 +18,11 @@ I participated in the piscine between 19-05-20 and 19-06-02.
 | [02](#Day02) | 05-22 | 05-23 | RegExpr, files, curl | 60 |
 | [03](#Day03) | 05-23 | 05-24 | PHP using a server (MAMP), superglobals | 100 |
 | [04](#Day04) | 05-24 | 05-25 | User session, hash | 100 |
-| [05](#Day05) | 05-27 | 05-28 | mySQL queries | ⏳ |
+| [05](#Day05) | 05-27 | 05-28 | mySQL queries | 45 |
 | [06](#Day06) | 05-28 | 05-29 | Object oriented programming (modular) | 44 |
 | [07](#Day07) | 05-29 | 05-30 | Inheritance | ⏳ |
-| [08](#Day08) | 05-30 | 05-31 | Traits | 🚧 |
+| [08](#Day08) | 05-30 | 05-31 | Traits | ⏳ |
+| [09](#Day09) | 05-31 | 06-01 | JavaScript, jQuery | ⏳ |
 
 ### Day00
 
@@ -228,6 +229,10 @@ This day was corrected automatically, and correction stopped at the first error 
 
 ### Day08
 
+| # | Exercise | Status |
+|---|----------|--------|
+| 00 | Awesome Starship Battles In The Dark Grim Future Of The Grim Dark 41st Century | ⏳ |
+
 ### Day 09
 
 | # | Exercise | Status |
@@ -242,3 +247,4 @@ This day was corrected automatically, and correction stopped at the first error 
 
 ### Rush00
 
+### Rush01
