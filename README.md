@@ -18,9 +18,11 @@ I participated in the piscine between 19-05-20 and 19-06-02.
 | [02](#Day02) | 05-22 | 05-23 | RegExpr, files, curl | 60 |
 | [03](#Day03) | 05-23 | 05-24 | PHP using a server (MAMP), superglobals | 100 |
 | [04](#Day04) | 05-24 | 05-25 | User session, hash | 100 |
-| [05](#Day05) | 05-27 | 05-28 | mySQL queries | ⏳ |
-| [06](#Day06) | 05-28 | 05-29 | Object oriented programming (modular) | ⏳ |
-| [07](#Day07) | 05-29 | 05-30 | Inheritance | 🚧 |
+| [05](#Day05) | 05-27 | 05-28 | mySQL queries | 45 |
+| [06](#Day06) | 05-28 | 05-29 | Object oriented programming (modular) | 44 |
+| [07](#Day07) | 05-29 | 05-30 | Inheritance | ⏳ |
+| [08](#Day08) | 05-30 | 05-31 | Traits | ⏳ |
+| [09](#Day09) | 05-31 | 06-01 | JavaScript, jQuery, AJAX | ⏳ |
 
 ### Day00
 
@@ -174,54 +176,72 @@ New hash php library functions:
 
 ### Day05
 
+This day was corrected automatically, and correction stopped at the first error detected. That's why I have no idea whether the last exercise are correct.
+
+| # | Exercise | Status | Correction notes |
+|---|----------|--------|------------------|
+| 00 | db_local | ✅ | |
+| 01 | ft_table | ✅ | |
+| 02 | Données en masse | ✅ | |
+| 03 | Copieur! | ✅ | |
+| 04 | Mise à joue, veuillez redémarrer | ✅ | |
+| 05 | Petit nettoyage | ✅ | |
+| 06 | Où est vinc'? | ✅ | |
+| 07 | 42 is everywhere! | ✅ | |
+| 08 | La belle époque | ✅ | |
+| 09 | Court-tragemé | ❌ | I pushed a test version that doesn't at all match the instructions... |
+| 10 | On est pas bien là ? | ❓ | |
+| 11 | L'argent c'est capital | ❓ | |
+| 12 | Pourquoi faire simple quand on veut faire compliqué? | ❓ | |
+| 13 | Tu veux des maths? | ❓ | |
+| 14 | Toi, tu vas relire... | ❓ | |
+| 15 | C'est quoi ton phone? | ❓ | |
+| 16 | Noël avant l'heure | ❓ | |
+| 17 | Les mats - LE RETOUR | ❓ | |
+| 18 | Y'a des limites quand même | ❓ | |
+| 19 | Retour vers le futur | ❓ | |
+| 20 | La totale | ❓ | |
+| 21 | MD5? Non FT5! | ❓ | |
+
+### Day06
+
+| # | Exercise | Status | Correction notes |
+|---|----------|--------|------------------|
+| 00 | La classe Color | ✅ | |
+| 01 | La classe Vertex | ✅ | |
+| 02 | La classe Vector | ✅ | |
+| 03 | La classe Matrix | ❌ | Disputable because the subject isn't clear, but the mult method should not return a new matrix, but only modify the current matrix |
+| 04 | La classe Camera | ✅ | |
+| 05 | Les classes Triangle et Render | ✖️ | |
+| 06 | Bonus : La classe Texture | ✖️ | |
+
+### Day07
+
 | # | Exercise | Status |
 |---|----------|--------|
-| 00 | db_local | ⏳ |
-| 01 | ft_table | ⏳ |
-| 02 | Données en masse | ⏳ |
-| 03 | Copieur! | ⏳ |
-| 04 | Mise à joue, veuillez redémarrer | ⏳ |
-| 05 | Petit nettoyage | ⏳ |
-| 06 | Où est vinc'? | ⏳ |
-| 07 | 42 is everywhere! | ⏳ |
-| 08 | La belle époque | ⏳ |
-| 09 | Court-tragemé | ⏳ |
-| 10 | On est pas bien là ? | ⏳ |
-| 11 | L'argent c'est capital | ⏳ |
-| 12 | Pourquoi faire simple quand on veut faire compliqué? | ⏳ |
-| 13 | Tu veux des maths? | ⏳ |
-| 14 | Toi, tu vas relire... | ⏳ |
-| 15 | C'est quoi ton phone? | ⏳ |
-| 16 | Noël avant l'heure | ⏳ |
-| 17 | Les mats - LE RETOUR | ⏳ |
-| 18 | Y'a des limites quand même | ⏳ |
-| 19 | Retour vers le futur | ⏳ |
-| 20 | La totale | ⏳ |
-| 21 | MD5? Non FT5! | ⏳ |
+| 00 | Short and proud | ⏳ |
+| 01 | Words of honor | ⏳ |
+| 02 | Fireproofing | ⏳ |
+| 03 | Playing house | ⏳ |
+| 04 | His sister? Seriously? | ⏳ |
+| 05 | Winter is coming | ⏳ |
+| 06 | The wrong kind of pact | ⏳ |
 
-## Day06
+### Day08
 
 | # | Exercise | Status |
 |---|----------|--------|
-| 00 | La classe Color | ⏳ |
-| 01 | La classe Vertex | ⏳ |
-| 02 | La classe Vector | ⏳ |
-| 03 | La classe Matrix | ⏳ |
-| 04 | La classe Camera | ⏳ |
-| 05 | Les classes Triangle et Render | ✖️ |
-| 06 | Bonus : La classe Texture | ✖️ |
+| 00 | Awesome Starship Battles In The Dark Grim Future Of The Grim Dark 41st Century | ⏳ |
 
-## Day07
+### Day09
 
 | # | Exercise | Status |
 |---|----------|--------|
-| 00 | Short and proud | ✖️ |
-| 01 | Words of honor | ✖️ |
-| 02 | Fireproofing | ✖️ |
-| 03 | Playing house | ✖️ |
-| 04 | His sister? Seriously? | ✖️ |
-| 05 | Winter is coming | ✖️ |
-| 06 | The wrong kind of pact | ✖️ |
+| 00 | Veuillez souffler dans le ballon | ⏳ |
+| 01 | It's over 9000 | ⏳ |
+| 02 | To do or not to do | ⏳ |
+| 03 | Si jQuery, j’y vais aussi | ⏳ |
+| 04 | AJAX, nettoyant surpuissant | ✖️ |
 
 ## Rushes
 
@@ -231,3 +251,4 @@ New hash php library functions:
 
 ### Rush00
 
+### Rush01
