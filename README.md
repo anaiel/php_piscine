@@ -233,7 +233,7 @@ This day was corrected automatically, and correction stopped at the first error 
 |---|----------|--------|
 | 00 | Awesome Starship Battles In The Dark Grim Future Of The Grim Dark 41st Century | ⏳ |
 
-### Day 09
+### Day09
 
 | # | Exercise | Status |
 |---|----------|--------|
