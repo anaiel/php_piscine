@@ -175,30 +175,32 @@ New hash php library functions:
 
 ### Day05
 
-| # | Exercise | Status |
-|---|----------|--------|
-| 00 | db_local | ⏳ |
-| 01 | ft_table | ⏳ |
-| 02 | Données en masse | ⏳ |
-| 03 | Copieur! | ⏳ |
-| 04 | Mise à joue, veuillez redémarrer | ⏳ |
-| 05 | Petit nettoyage | ⏳ |
-| 06 | Où est vinc'? | ⏳ |
-| 07 | 42 is everywhere! | ⏳ |
-| 08 | La belle époque | ⏳ |
-| 09 | Court-tragemé | ⏳ |
-| 10 | On est pas bien là ? | ⏳ |
-| 11 | L'argent c'est capital | ⏳ |
-| 12 | Pourquoi faire simple quand on veut faire compliqué? | ⏳ |
-| 13 | Tu veux des maths? | ⏳ |
-| 14 | Toi, tu vas relire... | ⏳ |
-| 15 | C'est quoi ton phone? | ⏳ |
-| 16 | Noël avant l'heure | ⏳ |
-| 17 | Les mats - LE RETOUR | ⏳ |
-| 18 | Y'a des limites quand même | ⏳ |
-| 19 | Retour vers le futur | ⏳ |
-| 20 | La totale | ⏳ |
-| 21 | MD5? Non FT5! | ⏳ |
+This day was corrected automatically, and correction stopped at the first error detected. That's why I have no idea whether the last exercise are correct.
+
+| # | Exercise | Status | Correction notes |
+|---|----------|--------|------------------|
+| 00 | db_local | ✅ | |
+| 01 | ft_table | ✅ | |
+| 02 | Données en masse | ✅ | |
+| 03 | Copieur! | ✅ | |
+| 04 | Mise à joue, veuillez redémarrer | ✅ | |
+| 05 | Petit nettoyage | ✅ | |
+| 06 | Où est vinc'? | ✅ | |
+| 07 | 42 is everywhere! | ✅ | |
+| 08 | La belle époque | ✅ | |
+| 09 | Court-tragemé | ❌ | I pushed a test version that doesn't at all match the instructions... |
+| 10 | On est pas bien là ? | ❓ | |
+| 11 | L'argent c'est capital | ❓ | |
+| 12 | Pourquoi faire simple quand on veut faire compliqué? | ❓ | |
+| 13 | Tu veux des maths? | ❓ | |
+| 14 | Toi, tu vas relire... | ❓ | |
+| 15 | C'est quoi ton phone? | ❓ | |
+| 16 | Noël avant l'heure | ❓ | |
+| 17 | Les mats - LE RETOUR | ❓ | |
+| 18 | Y'a des limites quand même | ❓ | |
+| 19 | Retour vers le futur | ❓ | |
+| 20 | La totale | ❓ | |
+| 21 | MD5? Non FT5! | ❓ | |
 
 ### Day06
 
@@ -225,6 +227,12 @@ New hash php library functions:
 | 06 | The wrong kind of pact | ⏳ |
 
 ### Day08
+
+### Day 09
+
+| # | Exercise | Status |
+|---|----------|--------|
+| 00 | Veuillez souffler dans le ballon | ⏳ |
 
 ## Rushes
 
