@@ -22,7 +22,7 @@ I participated in the piscine between 19-05-20 and 19-06-02.
 | [06](#Day06) | 05-28 | 05-29 | Object oriented programming (modular) | 44 |
 | [07](#Day07) | 05-29 | 05-30 | Inheritance | ⏳ |
 | [08](#Day08) | 05-30 | 05-31 | Traits | ⏳ |
-| [09](#Day09) | 05-31 | 06-01 | JavaScript, jQuery | ⏳ |
+| [09](#Day09) | 05-31 | 06-01 | JavaScript, jQuery | 🚧 |
 
 ### Day00
 
@@ -238,6 +238,7 @@ This day was corrected automatically, and correction stopped at the first error 
 | # | Exercise | Status |
 |---|----------|--------|
 | 00 | Veuillez souffler dans le ballon | ⏳ |
+| 01 | It's over 9000 | 🚧 |
 
 ## Rushes
 
