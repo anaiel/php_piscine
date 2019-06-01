@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+<head>
+    <title>Calculator</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+</head>
+<body>
+    <input name="leftNumber" type='text' />
+    <select name="operand">
+        <option value="+">+</option>
+        <option value="-">-</option>
+        <option value="*">*</option>
+        <option value="/">/</option>
+        <option value="%">%</option>
+    </select>
+    <input name="rightNumber" tpe='text' />
+    <input type='submit' name="submit" value="Try me!" />
+    <script>
+        $( "input[name='submit']" ).click(function () {
+            var leftNumber = $( "input[name='leftNumber']" ).val();
+            var operand = $( "select[name='operand']" ).val();
+            var rightNumber = $( "input[name='rightNumber']" ).val();
+            var result;
+            
+            if ( isNaN(leftNumber) || isNaN(rightNumber) || parseInt(leftNumber) < 0 || parseInt(rightNumber) < 0 ) {
+                alert("Error :(");
+                console.log("Error :(");
+            }
+            else if ( (operand == '/' || operand == '%') && parseInt(rightNumber) == 0 ) {
+                alert("It's over 9000!");
+                console.log("It's over 9000!");
+            }
+            else {
+                switch (operand) {
+                    case '+':
+                        result = parseInt(leftNumber) + parseInt(rightNumber);
+                        break;
+                    case '-':
+                        result = parseInt(leftNumber) - parseInt(rightNumber);
+                        break;
+                    case '*':
+                        result = parseInt(leftNumber) * parseInt(rightNumber);
+                        break;
+                    case '/':
+                        result = parseInt(leftNumber) / parseInt(rightNumber);
+                        break;
+                    case '%':
+                        result = parseInt(leftNumber) % parseInt(rightNumber);
+                        break;
+                }
+                alert(result);
+                console.log(result);
+            }
+            return ;
+        });
+
+        function pleaseUseMe () {
+            alert("Please use me...");
+        }
+
+        setInterval(pleaseUseMe, 30000);
+    </script>
+</body>
+</html>

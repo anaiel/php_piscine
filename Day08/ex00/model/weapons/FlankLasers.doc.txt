@@ -1,0 +1,14 @@
+<- FLANKLASER class -----------------------------------------------------------
+The FlankLaser class handles a flank lasers weapon. It implements the Weapon
+interface.
+
+The construction requires the following arguments:
+    Ship    ship    : the ship the weapon is mounted on.
+
+The FlankLasers class provides the following accessors:
+    string  getName();
+    Returns the name of the weapon;
+
+~~~~~~~~~~~~ DEV LOG
+For now, the Flank laser can shoot anywhere (short range) ¯\_(ツ)_/¯
+----------------------------------------------------------- FLANKLASER class ->

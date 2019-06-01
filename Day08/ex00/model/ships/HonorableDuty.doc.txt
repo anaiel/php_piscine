@@ -1,0 +1,4 @@
+<- HONORABLEDUTY Class --------------------------------------------------------
+The HonorableDuty class describes a type of ship. It inherits from the ship
+class.
+-------------------------------------------------------- HONORABLEDUTY class ->

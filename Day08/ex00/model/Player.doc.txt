@@ -1,0 +1,23 @@
+<- PLAYER Class ---------------------------------------------------------------
+The Player class handles all the information about a player.
+
+The Player class is constructed with the following parameters:
+	string  name    : Name of the player
+
+The Player class provides the following accessors:
+Getters:
+	int     getNumber();
+	Returns the number (1 or 2) of the player.
+	string  getName();
+	Returns the name of the player.
+	Ship    getShip();
+	Returns the ship the player owns.
+
+The Player class provides the following methods:
+
+private     HonorableDuty   _getShip();
+Creates a ship for the current player.
+
+~~~~~~~~~~~~ DEV LOG
+Pour l'instant un joueur ne peut avoir qu'un vaisseau de type HonorableDuty.
+--------------------------------------------------------------- PLAYER Class ->

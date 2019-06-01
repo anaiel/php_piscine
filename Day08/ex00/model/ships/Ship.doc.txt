@@ -1,0 +1,44 @@
+<- SHIP class -----------------------------------------------------------------
+The Ship class is an abstract class parent of ship types.
+
+It is constructed with the following parameters:
+    Player      owner   : Player who owns the ship
+    Battlefield bttlfld : Battlefield on which the game takes place
+
+The Ship class provides the following accessors on top of the general __get:
+    string  getName();
+    Returns the name of the ship.
+    int     getSpeed();
+    Returns the speed of the ship (number of movements per activation).
+    int     getShell();
+    Returns the initial shell value of the ship.
+    int     getShield();
+    Returns the initial shield valie of the ship.
+
+The Ship class provides the following methods:
+
+private void    arriveOnBattlefield ();
+Places the ship on its initial position in the battlefield.
+
+private void    _updateShipPosition ( array $newCoordinates );
+Updates the ship position on the battlefield.
+
+public  void    move ( array $coords );
+Moves the ship following the coordinates (which are given as relative to the
+current position of the ship).
+
+public  void    changePhase ( string $newPhase );
+Changes the phase of the active ship (move/shoot).
+
+public  void    restoreSpeed ();
+Restores the speed used during the turn in preparation for the next turn.
+
+public  void    takeHit ( int $damage );
+Diminishes the shield and shell of the ship by the number of damage recieved.
+
+~~~~~~~~ DEV LOG
+At the start they are placed as way from the opposite corners (top-left and
+bottom-right) as necessary to allow the ships to rotate (since they rotate
+around the middle of the ship)
+For now ships are all equiped with one single FlankLasers weapon.
+----------------------------------------------------------------- SHIP class ->

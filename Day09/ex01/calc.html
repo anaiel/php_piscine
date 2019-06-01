@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+<head>
+    <title>Calculator</title>
+</head>
+<body>
+    <form name="calculator"  action="javascript:void(0);">
+        <input name="leftNumber" type='text' />
+        <select name="operand">
+            <option value="+">+</option>
+            <option value="-">-</option>
+            <option value="*">*</option>
+            <option value="/">/</option>
+            <option value="%">%</option>
+        </select>
+        <input name="rightNumber" tpe='text' />
+        <input type='submit' name="submit" value="Try me!" onclick='calc()'/>
+    </form>
+    <script>
+        var calculator = document.forms['calculator'];
+
+        function calc () {
+            var leftNumber = calculator.elements['leftNumber'].value;
+            var operand = calculator.elements['operand'].value;
+            var rightNumber = calculator.elements['rightNumber'].value;
+            var result;
+            
+            if ( isNaN(leftNumber) || isNaN(rightNumber) || parseInt(leftNumber) < 0 || parseInt(rightNumber) < 0 ) {
+                alert("Error :(");
+                console.log("Error :(");
+            }
+            else if ( (operand == '/' || operand == '%') && parseInt(rightNumber) == 0 ) {
+                alert("It's over 9000!");
+                console.log("It's over 9000!");
+            }
+            else {
+                switch (operand) {
+                    case '+':
+                        result = parseInt(leftNumber) + parseInt(rightNumber);
+                        break;
+                    case '-':
+                        result = parseInt(leftNumber) - parseInt(rightNumber);
+                        break;
+                    case '*':
+                        result = parseInt(leftNumber) * parseInt(rightNumber);
+                        break;
+                    case '/':
+                        result = parseInt(leftNumber) / parseInt(rightNumber);
+                        break;
+                    case '%':
+                        result = parseInt(leftNumber) % parseInt(rightNumber);
+                        break;
+                }
+                alert(result);
+                console.log(result);
+            }
+            return ;
+        }
+
+        function pleaseUseMe () {
+            alert("Please use me...");
+        }
+
+        setInterval(pleaseUseMe, 30000);
+    </script>
+</body>
+</html>

@@ -1,0 +1,119 @@
+:root {
+    --main-bg-color: #0d1023;
+    --ship-color: #ffdb4d;
+    --grid-border: #6d6d6d;
+}
+
+body {
+    padding: 0;;
+    margin: 0;;
+    background-color: var(--main-bg-color);
+}
+
+/************ HEADER *************/
+#header {
+    width: 100%;
+    height: 5vw;
+    display: block;
+    position: relative;
+    top: 0;
+    margin: 0;
+    padding: 0;
+    border: 5px solid black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2.95vw;
+    color: white;
+    line-height: 5vw;
+    text-align: center;
+}
+
+/**************** BATTLEFIELD ******************/
+#battlefield {
+    width: 90%;
+    position: relative;
+    margin: 20 auto;
+    color: white;
+}
+
+#battlefield table {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    table-layout: fixed;
+    border-collapse: collapse;
+    
+}
+
+#battlefield td {
+    width: 10px;
+    height: 10px;
+    border: 1px dotted var(--grid-border);
+}
+
+#battlefield .noonehere {
+}
+
+#battlefield .someonehere {
+    background-color: var(--ship-color);
+}
+
+/****************** GAME PANEL *****************/
+#game_panel {
+    height: 150px;
+    width: 100%;
+    position: fixed;
+    bottom:0;
+    padding: 0;
+    margin: 0;
+    font-family: monospace;
+    color: white;
+    font-size: 12px;
+}
+
+#game_panel h2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+}
+
+#active_player {
+    height: 150px;
+    width: 75%;
+    float: left;
+    top: 0;
+    left: 0;
+    padding: 0;
+    margin: 0;
+    border: 5px solid var(--ship-color);
+}
+
+    #ship_info {
+        display: inline-block;
+        
+    }
+
+    #movement {
+        display: inline-block;
+        text-align: center;
+        line-height: 20px;
+    }
+
+        #movement a {
+            text-decoration: none;
+            border: 1px dotted var(--grid-border);
+            color: var(--ship-color);
+        }
+
+    #shooting {
+        display: inline-block;
+    }
+
+#inactive_player {
+    height: 150px;
+    width: 20%;
+    float: right;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    border: 5px solid var(--grid-border);
+}

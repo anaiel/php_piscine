@@ -1,0 +1,22 @@
+<- BATTLEFIELD Class ----------------------------------------------------------
+The Battlefield class holds a representation of the battlefield.
+
+The constructor doesn't require any parameters.
+
+The Battlefield class provides the following accessors:
+    int     getPlayerTurn ();
+    Returns the number of the current player.
+    Player  getPlayer ( $status );
+    Returns the player corresponding to the status (active/inactive).
+
+The Battlefield class provides the following methods:
+
+string  display (); //public
+Returns a string representing the state of the battlefield as an html table.
+
+null    newPlayer ( Player $newPlayer ); //public
+Adds a new player to the battlefield. There can only be 2 players max.
+
+null    nextPlayer (); //public
+Changes the active player.
+---------------------------------------------------------- BATTLEFIELD Class ->

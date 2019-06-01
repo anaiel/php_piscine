@@ -1,0 +1,4 @@
+<- SWORDOFABSOLUTION Class ----------------------------------------------------
+The HonorableDuty class describes a type of ship. It inherits from the ship
+class.
+---------------------------------------------------- SWORDOFABSOLUTION class ->
