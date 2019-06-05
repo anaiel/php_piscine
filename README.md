@@ -2,6 +2,8 @@
 
 The Piscine PHP is a 2 weeks intensive program to learn the basics of PHP at the 42 computer science school. Exercices are grouped into "days", and each day has to be turned in within a short timeframe; and during the two weekends, a bigger group project, called a "rush", has to be completed.
 
+The piscine is the first step to access other web projects. Day 00 is about html and css, day 01 to 04 are to discover the PHP language, day 05 is about MySQL, and days 06 to 08 are about object oriented programming in php and day 09 is about JavaScript and jQuery.
+
 ![Web Branch](https://i.imgur.com/k7oFhWM.png)
 
 I participated in the piscine between 19-05-20 and 19-06-02.
