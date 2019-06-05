@@ -2,7 +2,7 @@
 
 The Piscine PHP is a 2 weeks intensive program to learn the basics of PHP at the 42 computer science school. Exercices are grouped into "days", and each day has to be turned in within a short timeframe; and during the two weekends, a bigger group project, called a "rush", has to be completed.
 
-The piscine is the first step to access other web projects. Day 00 is about html and css, day 01 to 04 are to discover the PHP language, day 05 is about MySQL, and days 06 to 08 are about object oriented programming in php and day 09 is about JavaScript and jQuery.
+The piscine is the first step to access other web projects. Day 00 is about **HTML** and **CSS**, day 01 to 04 are to discover the **PHP** language, day 05 is about **MySQL**, and days 06 to 08 are about **object oriented programming** in php and day 09 is about **JavaScript** and **jQuery**.
 
 ![Web Branch](https://i.imgur.com/k7oFhWM.png)
 
@@ -30,6 +30,8 @@ I participated in the piscine between 19-05-20 and 19-06-02.
 
 ### Day00
 
+Day 00 gives notions of HTML (table, divs, links) and css (responsive styling).
+
 | # | Exercise | Notions | Status |
 |---|----------|---------|--------|
 | 00 | B.A.BA or home | Create a very basic HTML page with minimal CSS styling. | ✅ |
@@ -41,21 +43,9 @@ I participated in the piscine between 19-05-20 and 19-06-02.
 
 ### Day01
 
-New standard php library functions:
-* `array_filter`
-* `array_key_exists`
-* `array_merge`
-* `array_values`
-* `count`
-* `explode`
-* `fgets`
-* `feof`
-* `is_numeric`
-* `ksort`
-* `natcasesort`
-* `sort`
-* `strlen`
-* `trim`
+Day 01 is a collection of short exercise to learn the syntax and some basic functions of the standard library of PHP. A big part of the exercises revolve around the use of arrays, which are handled differently than in C.
+
+These are the relevant function that were used in these exercises: `array_filter`, `array_key_exists`, `array_merge`, `array_values`, `count`, `explode`, `fgets`, `feof`, `is_numeric`, `ksort`, `natcasesort`, `sort`, `strlen`, `trim`.
 
 | # | Exercise | Status | Correction notes |
 |---|----------|--------|------|
@@ -77,33 +67,9 @@ New standard php library functions:
 
 ### Day02
 
-New pcre php library functions:
-* `preg_match`
-* `preg_replace`
-* `preg_replace_callback`
+Day 02 explores regular expressions, handling files, and curl.
 
-New standard php library functions:
-* `fclose`
-* `fopen`
-* `fread`
-* `is_dir`
-* `is_file`
-* `mkdir`
-* `strtoupper`
-* `unpack`
-
-New date php library functions:
-* `date`
-* `date_default_timezone_set`
-* `mktime`
-
-New curl php library functions:
-* `curl_close`
-* `curl_exec`
-* `curl_init`
-* `curl_setopt`
-
-Regexp Cheatsheet:
+Here is a quick cheatsheet of the regular expressions metacharacters and flags that are useful to complete the exercises :
 
 | `metacharacters` or *flags* | Effect |
 |---|---|
@@ -122,29 +88,27 @@ Regexp Cheatsheet:
 | *i* | Case insensitive |
 | *s* | Consider new line as any character |
 
+Here are the new php function that are handy for these exercises :
+* pcre library: `preg_match`, `preg_replace`, `preg_replace_callback`
+* standard library: `fclose`, `fopen`, `fread`, `is_dir`, `is_file`, `mkdir`, `strtoupper`, `unpack`
+* date library: `date`, `date_default_timezone_set`, `mktime`
+* curl library: `curl_close`, `curl_exec`, `curl_init`, `curl_setopt`
+
 | # | Exercise | Status | Correction notes |
 |---|----------|--------|-------|
 | 00 | Autre monde | ✅ | |
 | 01 | Autre temps | ✅ | |
 | 02 | La Loupe | ✅ | |
-| 03 | Who are you? | ✅ | Blank spaces are actually a little trickier than a simple space character |
+| 03 | Who are you? | ✅ | Blank spaces are apparently a little trickier than a simple space character |
 | 04 | Livre photos | ✅ | |
 | 05 | Dans le D'(e)ni | ✖️ | |
 | 06 | Le parchemin | ✖️ | |
 
 ### Day03
 
-Instead of using PAMP as per the instructions, I used MAMP Bitnami.
+Day 03 introduces the use of php with a server. It can be done either with the `php -S` command or with *MAMP Bitnami*.
 
-New standard php library functions:
-* `base64_encode`
-* `header`
-* `phpinfo`
-* `readfile`
-* `setcookie`
-
-New date php library functions:
-* `time`
+Here are the relevant php functions: `base64_encode`, `header`, `phpinfo`, `readfile`, `setcookie`, `time`
 
 | # | Exercise | Status |
 |---|----------|--------|
@@ -158,17 +122,9 @@ New date php library functions:
 
 ### Day04
 
-New stadard php library functions:
-* `file_exists`
-* `file_put_contents`
-* `serialize`
-* `unserialize`
+Day04 furthers the use of servers with the creation of simple account features (create, login, logout, etc.) and introduces the need for security in storing information such as a password.
 
-New session php library functions:
-* `session_start`
-
-New hash php library functions:
-* `hash`
+Relevant functions: `file_exists`, `file_put_contents`, `serialize`, `unserialize`, `session_start`, `hash`
 
 | # | Exercise | Status | Correction notes |
 |---|----------|--------|------------------|
@@ -180,7 +136,7 @@ New hash php library functions:
 
 ### Day05
 
-This day was corrected automatically, and correction stopped at the first error detected. That's why I have no idea whether the last exercise are correct.
+Day 05 is a collection of MySQL queries, that get weirder with each exercise. We are presented with database without any context and must try to answer the exercises as best as we can. This day was corrected automatically (and so, the correction allows fr very little leeway), and correction stopped at the first error detected (that's why I have no idea whether the last exercise are correct or not).
 
 | # | Exercise | Status | Correction notes |
 |---|----------|--------|------------------|
@@ -209,6 +165,9 @@ This day was corrected automatically, and correction stopped at the first error 
 
 ### Day06
 
+Day 06 is the first step into object oriented programming. Unlike other days where the exercises are independant from one another and range from very easy to hardest, here each exercise is one part of a bigger project, which is to visualize a 3D object. For each exercise, we have to define a class with the necessary contructor and methods.
+It also serves as an introduction to documenting code, which we hardly ever do at 42.
+
 | # | Exercise | Status | Correction notes |
 |---|----------|--------|------------------|
 | 00 | La classe Color | ✅ | |
@@ -220,6 +179,8 @@ This day was corrected automatically, and correction stopped at the first error 
 | 06 | Bonus : La classe Texture | ✖️ | |
 
 ### Day07
+
+Day 07 dives into inheritance, and how classes interact. This is a quick series of simple exercises, quite fun to complete as they give the opportunity for a little role play in the universe of Westeros.
 
 | # | Exercise | Status |
 |---|----------|--------|
@@ -233,18 +194,28 @@ This day was corrected automatically, and correction stopped at the first error 
 
 ### Day08
 
+Day 08 is a much more complete look at classes. Unlike other days, there is only one exercise, and the goal is to use every aspect of object oriented programming that has previously been studied to complete the assignment.
+The assignment is to create a game, based in the universe of Warhammer 40000, where two players battle each other on a battlefield represented by a grid. There should be obstacles on the battlefield, the players should be able to have several ships, and ships should have different weapons. The game is played turn by turn, where at each turn each player can give orders (which modify the statistics of the ships or weapons), move their ships and then use the weapons.
+This is a lot to do in less than 36 hours. I managed to have a grid with two ships with one weapon each. The ships can move (but their movement doesn't respect all the instructions), and the weapons can inflict damage on the opponent (I didn't handle the fact that an ennemy ship should be within range to be able to be shot at...). I slapped some very simple CSS onto that, and so, it remains what it is: a very crappy game, very slow (it doesn't use JS and I didn't have much time to think about performance, so the page reloads every time an action is performed), but the programming uses everything from classes to interfaces and abstract methods to static declarations.
+
+![ASBITDGFOTGD41C](https://i.imgur.com/n6eRNLd.png)
+
 | # | Exercise | Status |
 |---|----------|--------|
 | 00 | Awesome Starship Battles In The Dark Grim Future Of The Grim Dark 41st Century | ⏳ |
 
 ### Day09
 
+The Last day of the piscine is a quick introduction to Javascript, jQuery and AJAX. The first 3 exercises must be completed once with JS, and then with jQuery.
+
 | # | Exercise | Status |
 |---|----------|--------|
 | 00 | Veuillez souffler dans le ballon | ⏳ |
+| 00bis | Si jQuery, j’y vais aussi | ⏳ |
 | 01 | It's over 9000 | ⏳ |
+| 01bis | Si jQuery, j’y vais aussi | ⏳ |
 | 02 | To do or not to do | ⏳ |
-| 03 | Si jQuery, j’y vais aussi | ⏳ |
+| 02bis | Si jQuery, j’y vais aussi | ⏳ |
 | 04 | AJAX, nettoyant surpuissant | ✖️ |
 
 ## Rushes
@@ -252,7 +223,16 @@ This day was corrected automatically, and correction stopped at the first error 
 | # | Start | End | Description | Grade |
 |---|-------|-----|-------------|-------|
 | 00 | 05-25 | 05-26 | Create a website for an online shop | 92 |
+| 01 | 06-01 | 06-02 | Create a game | ✖️ |
 
 ### Rush00
 
+The goal of the first rush is to create the website for an online shop. It should first look like a shop (so there's a bit of front-end to do) and also offer various posibilities, such as creating and managing an account, adding items to a shopping cart and then checking out your items, addind/managing users and commands from an administrator account, sorting items following different categories, etc.
+
+We chose to do a furniture web store, based on a very famous scandinavian store (ours is basically a rot42 of the name and iems of aid store). There was little time and a lot to do. Unfortunately, I tried to do everything but a lot of the features don't actually work, which is very frustrating. It's something I took into account when I worked on Day08: I favoured making something small that works over doing something more extensive that doesn't work, and I think it paid off.
+
+![Yauq](https://i.imgur.com/kxhZMWp.png)
+
 ### Rush01
+
+With its reputation of being impossible to complete, I prefered finishing Day09 rather than launching myself into this project.
