@@ -24,9 +24,9 @@ I participated in the piscine between 19-05-20 and 19-06-02.
 | [04](#Day04) | 05-24 | 05-25 | User session, hash | 100 |
 | [05](#Day05) | 05-27 | 05-28 | mySQL queries | 45 |
 | [06](#Day06) | 05-28 | 05-29 | Object oriented programming (modular) | 44 |
-| [07](#Day07) | 05-29 | 05-30 | Inheritance | ⏳ |
-| [08](#Day08) | 05-30 | 05-31 | Traits | ⏳ |
-| [09](#Day09) | 05-31 | 06-01 | JavaScript, jQuery, AJAX | ⏳ |
+| [07](#Day07) | 05-29 | 05-30 | Inheritance | 100 |
+| [08](#Day08) | 05-30 | 05-31 | Traits | 78 |
+| [09](#Day09) | 05-31 | 06-01 | JavaScript, jQuery, AJAX | 65 |
 
 ### Day00
 
@@ -184,13 +184,13 @@ Day 07 dives into inheritance, and how classes interact. This is a quick series 
 
 | # | Exercise | Status |
 |---|----------|--------|
-| 00 | Short and proud | ⏳ |
-| 01 | Words of honor | ⏳ |
-| 02 | Fireproofing | ⏳ |
-| 03 | Playing house | ⏳ |
-| 04 | His sister? Seriously? | ⏳ |
-| 05 | Winter is coming | ⏳ |
-| 06 | The wrong kind of pact | ⏳ |
+| 00 | Short and proud | ✅ |
+| 01 | Words of honor | ✅ |
+| 02 | Fireproofing | ✅ |
+| 03 | Playing house | ✅ |
+| 04 | His sister? Seriously? | ✅ |
+| 05 | Winter is coming | ✅ |
+| 06 | The wrong kind of pact | ✅ |
 
 ### Day08
 
@@ -202,21 +202,21 @@ This is a lot to do in less than 36 hours. I managed to have a grid with two shi
 
 | # | Exercise | Status |
 |---|----------|--------|
-| 00 | Awesome Starship Battles In The Dark Grim Future Of The Grim Dark 41st Century | ⏳ |
+| 00 | Awesome Starship Battles In The Dark Grim Future Of The Grim Dark 41st Century | 78 |
 
 ### Day09
 
 The Last day of the piscine is a quick introduction to Javascript, jQuery and AJAX. The first 3 exercises must be completed once with JS, and then with jQuery.
 
-| # | Exercise | Status |
-|---|----------|--------|
-| 00 | Veuillez souffler dans le ballon | ⏳ |
-| 00bis | Si jQuery, j’y vais aussi | ⏳ |
-| 01 | It's over 9000 | ⏳ |
-| 01bis | Si jQuery, j’y vais aussi | ⏳ |
-| 02 | To do or not to do | ⏳ |
-| 02bis | Si jQuery, j’y vais aussi | ⏳ |
-| 04 | AJAX, nettoyant surpuissant | ✖️ |
+| # | Exercise | Status | Notes |
+|---|----------|--------|-------|
+| 00 | Veuillez souffler dans le ballon | ✅ | |
+| 00bis | Si jQuery, j’y vais aussi | ✅ | |
+| 01 | It's over 9000 | ❌ | There's a couple edge cases I didn't take into account |
+| 01bis | Si jQuery, j’y vais aussi | ❌ | Edge cases weren't fixed with jQuery... |
+| 02 | To do or not to do | ✅ | |
+| 02bis | Si jQuery, j’y vais aussi | ✅ | |
+| 04 | AJAX, nettoyant surpuissant | ✖️ | |
 
 ## Rushes
 
@@ -236,3 +236,7 @@ We chose to do a furniture web store, based on a very famous scandinavian store 
 ### Rush01
 
 With its reputation of being impossible to complete, I prefered finishing Day09 rather than launching myself into this project.
+
+🚩 Final tally : one exhausted person, but a lot of fun was had over the course of these 13 days. I validated the Piscine which grants me access to the web projects.
+
+<img align="right" src="https://i.imgur.com/rxex4Qm.png" />
